@@ -67,6 +67,7 @@ function fallbackMemo() {
     subtitle: "Scale-out 是确定性主线，Scale-up 是更大的期权",
     disclaimer: "仅作研究备忘录，不构成投资建议。",
     core_thesis: [],
+    independent_conclusion: null,
     architecture_layers: [],
     companies: [],
     kpis: [],
@@ -78,9 +79,11 @@ function fallbackMemo() {
 function renderAll() {
   renderHero();
   renderCoreThesis();
+  renderIndependentConclusion();
   renderArchitecture();
   renderCompanyCompare();
   renderKpis();
+  renderKpiConclusion();
   renderWeekly();
   renderNews();
   renderThesisLog();
@@ -106,6 +109,72 @@ function renderCoreThesis() {
       ${item.plain ? `<p class="plain"><strong>人话：</strong>${escapeHtml(item.plain)}</p>` : ""}
     </article>
   `).join("");
+}
+
+function renderIndependentConclusion() {
+  const container = byId("independentConclusion");
+  const item = state.memo.independent_conclusion;
+  if (!item) {
+    container.innerHTML = `<article class="card"><p class="muted">暂无独立结论数据。</p></article>`;
+    return;
+  }
+
+  container.innerHTML = `
+    <article class="independent-card">
+      <div class="readout-hero">
+        <div>
+          <div class="tag-row">
+            <span class="pill">As of ${escapeHtml(item.as_of)}</span>
+            <span class="pill watch">Confidence: ${escapeHtml(item.confidence)}</span>
+            <span class="pill">${escapeHtml(item.stance)}</span>
+          </div>
+          <h3>${escapeHtml(item.headline)}</h3>
+          <p class="plain"><strong>人话：</strong>${escapeHtml(item.plain)}</p>
+        </div>
+        <div class="source-box">
+          <h4>使用的数据</h4>
+          <ul>${(item.data_basis || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+          <h4>不使用</h4>
+          <ul>${(item.not_used || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+        </div>
+      </div>
+
+      <div class="readout-grid">
+        ${(item.company_readthrough || []).map((company) => `
+          <section class="readout-block">
+            <span class="pill good">${escapeHtml(company.ticker)}</span>
+            <p>${escapeHtml(company.conclusion)}</p>
+          </section>
+        `).join("")}
+      </div>
+
+      <div class="evidence-list">
+        <h4>证据链</h4>
+        ${(item.evidence || []).map((evidence) => `
+          <section class="evidence-item">
+            <h5>${escapeHtml(evidence.point)}</h5>
+            <p>${escapeHtml(evidence.detail)}</p>
+            <p class="muted"><strong>待观察：</strong>${escapeHtml(evidence.watch)}</p>
+          </section>
+        `).join("")}
+      </div>
+
+      <div class="readout-grid three">
+        ${readoutList("尚未证明", item.not_yet_proven, "watch")}
+        ${readoutList("风险读数", item.risk_readthrough, "risk")}
+        ${readoutList("下一步观察", item.next_watch, "good")}
+      </div>
+    </article>
+  `;
+}
+
+function readoutList(title, values = [], tone = "") {
+  return `
+    <section class="readout-block">
+      <span class="pill ${tone}">${escapeHtml(title)}</span>
+      <ul>${(values || []).map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+    </section>
+  `;
 }
 
 function renderArchitecture() {
@@ -157,6 +226,77 @@ function renderKpis() {
       </article>
     `;
   }).join("");
+}
+
+function renderKpiConclusion() {
+  const container = byId("kpiConclusion");
+  const statuses = Object.values(state.kpiStatus);
+  const verified = statuses.filter((item) => item === "已验证").length;
+  const watching = statuses.filter((item) => item === "观察中").length;
+  const risk = statuses.filter((item) => item === "风险信号").length;
+  const unset = (state.memo.kpis || []).length - statuses.length;
+  const strengthenNews = state.news.filter((item) => item.thesis_effect === "Strengthen").length;
+  const weakenNews = state.news.filter((item) => item.thesis_effect === "Weaken").length;
+  const highNews = state.news.filter((item) => item.importance === "High").length;
+
+  let conclusion = "当前结论：主假设保持“观察中”。Scale-out 仍是确定性主线，Scale-up 仍是更大期权，但需要更多 KPI 和订单数据验证。";
+  let tone = "watch";
+
+  if (risk >= 2 || weakenNews > strengthenNews) {
+    conclusion = "当前结论：主假设需要降温。风险信号已经开始影响判断，重点复核 CPO/NPO 导入节奏、库存、毛利率和客户订单质量。";
+    tone = "risk";
+  } else if (verified >= 4 && strengthenNews >= weakenNews) {
+    conclusion = "当前结论：主假设获得阶段性增强。Scale-out 升级和 Scale-up 光化方向都有更多验证，但仍不等于投资建议，需要继续看收入、订单和毛利率兑现。";
+    tone = "good";
+  } else if (verified >= 2 || strengthenNews > weakenNews) {
+    conclusion = "当前结论：主假设小幅增强。产业信号偏正面，但 KPI 仍不足以完成强验证，下一步要看 1.6T、CW laser、InP 利用率和 AI revenue。";
+    tone = "good";
+  }
+
+  const nextActions = buildNextActions();
+  container.innerHTML = `
+    <article class="conclusion-card ${tone}">
+      <div>
+        <p class="eyebrow">Auto Readout</p>
+        <h3>${escapeHtml(conclusion)}</h3>
+        <p class="muted">这是基于当前 KPI 点击状态和 news.json 的自动归纳，不构成投资建议，需要人工复核。</p>
+      </div>
+      <div class="conclusion-stats">
+        <span class="pill good">已验证 ${verified}</span>
+        <span class="pill watch">观察中 ${watching}</span>
+        <span class="pill risk">风险信号 ${risk}</span>
+        <span class="pill">未验证 ${unset}</span>
+        <span class="pill good">Strengthen 新闻 ${strengthenNews}</span>
+        <span class="pill risk">Weaken 新闻 ${weakenNews}</span>
+        <span class="pill">High 新闻 ${highNews}</span>
+      </div>
+      <div class="next-actions">
+        <h4>下一步观察动作</h4>
+        <ul>${nextActions.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      </div>
+    </article>
+  `;
+}
+
+function buildNextActions() {
+  const actions = new Set();
+  const riskKpis = Object.entries(state.kpiStatus).filter(([, status]) => status === "风险信号").map(([name]) => name);
+  const watchKpis = Object.entries(state.kpiStatus).filter(([, status]) => status === "观察中").map(([name]) => name);
+
+  [...riskKpis, ...watchKpis].slice(0, 4).forEach((name) => actions.add(`优先复核 KPI：${name}`));
+  state.news
+    .filter((item) => ["Strengthen", "Weaken"].includes(item.thesis_effect))
+    .slice(0, 3)
+    .forEach((item) => {
+      if (item.impact_chain?.next_watch_item) actions.add(item.impact_chain.next_watch_item);
+    });
+
+  if (!actions.size) {
+    actions.add("继续观察 1.6T 是否进入批量出货、AI revenue 占比是否提升。");
+    actions.add("继续观察 LITE / COHR 的 CW laser 订单、InP 产能利用率和毛利率变化。");
+    actions.add("继续观察 Nvidia / Google / Broadcom 是否更明确采用 CPO、NPO、OCS 或硅光路线。");
+  }
+  return [...actions].slice(0, 5);
 }
 
 function renderWeekly() {
@@ -317,6 +457,7 @@ function bindStaticEvents() {
     state.kpiStatus[card.dataset.kpi] = button.dataset.status;
     saveKpiStatus();
     renderKpis();
+    renderKpiConclusion();
   });
 
   byId("newsFeed").addEventListener("click", (event) => {

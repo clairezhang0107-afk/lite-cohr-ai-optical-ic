@@ -25,6 +25,76 @@
       "plain": "眼前先看数据中心外部联网升级，长期再看光能不能进入机柜和计算域。"
     }
   ],
+  "independent_conclusion": {
+    "as_of": "2026-06-20",
+    "data_basis": [
+      "公司公开资料与 IR 信息",
+      "公开产业新闻与架构路线信息",
+      "公开技术路线：800G / 1.6T、CPO、NPO、OCS、CW laser、InP",
+      "本网站 data/news.json、data/weekly-updates.json、data/thesis-log.json 中已记录的信息"
+    ],
+    "not_used": [
+      "卖方目标价",
+      "卖方评级",
+      "买入、卖出、持有建议",
+      "未经复核的社交媒体传闻"
+    ],
+    "headline": "基于现有非卖方数据，主结论是不改变：Scale-out 是当下更确定的主线，Scale-up 是更大的期权，但还没有被订单和 KPI 完整验证。",
+    "stance": "观察中，偏正面，但不是强验证。",
+    "confidence": "Medium",
+    "company_readthrough": [
+      {
+        "ticker": "LITE",
+        "conclusion": "LITE 的验证重点更集中在 CW laser / UHP laser / InP 光源是否从架构故事转成订单、收入和毛利率。若 Scale-up 光互联加速，LITE 的弹性更直接；若 CPO/NPO 延后，风险也更集中。"
+      },
+      {
+        "ticker": "COHR",
+        "conclusion": "COHR 的验证重点更偏制造平台化：6 英寸 InP、EML、光模块、CPO enabling 和 AI datacom 收入是否同步改善。它的 AI 光互联敞口更分散，弹性可能不如 LITE 直接，但平台化验证意义更强。"
+      }
+    ],
+    "evidence": [
+      {
+        "point": "Scale-out 仍是确定性主线",
+        "detail": "现有信息最容易被验证的是 800G 到 1.6T 光模块升级，因为它直接对应 AI 数据中心交换机、服务器和机柜之间的带宽升级。",
+        "watch": "继续看 1.6T transceiver 是否进入批量出货，以及 Cloud / AI revenue 占比是否提升。"
+      },
+      {
+        "point": "Scale-up 是更大期权",
+        "detail": "CPO、NPO、XPO、OCS、CW laser 和 InP 都指向光更靠近芯片和机柜内互联，但目前更像架构方向和供应链准备，尚未完全等同于大规模收入。",
+        "watch": "继续看 Nvidia / Google / Broadcom 的 rack-scale 架构是否明确采用更多光互联。"
+      },
+      {
+        "point": "LITE 更像上游光源弹性标的",
+        "detail": "LITE 的关键词集中在 CW laser、UHP laser、InP 和 CPO/NPO 相关光源，投资假设更依赖高功率光源订单和产能紧张能否兑现。",
+        "watch": "继续看 CW laser 订单、客户预付款、InP 产能利用率和毛利率变化。"
+      },
+      {
+        "point": "COHR 更像垂直整合制造平台",
+        "detail": "COHR 的关键词集中在 6 英寸 InP、EML、光模块、datacom transceivers 和 CPO enabling，投资假设更依赖 AI 光互联是否进入长期规模制造阶段。",
+        "watch": "继续看 6 英寸 InP 利用率、AI datacom 收入、1.6T 出货和非 AI 业务拖累。"
+      }
+    ],
+    "not_yet_proven": [
+      "尚未用足够公开数据证明 Scale-up 光互联已经进入大规模订单阶段。",
+      "尚未证明 CPO/NPO 会在短期明显替代铜缆、AEC 或传统可插拔方案。",
+      "尚未证明 InP 供给紧张一定转化为更高毛利率，而不是交付瓶颈。",
+      "尚未证明 3-4 倍 Scale-out TAM 假设可以直接当成确定事实。"
+    ],
+    "risk_readthrough": [
+      "如果大客户推迟 CPO/NPO 导入，LITE 的上游光源弹性会被推迟验证。",
+      "如果 COHR 的非 AI 板块拖累或资本开支压力较大，平台化逻辑可能被财务复杂度稀释。",
+      "如果收入增长但毛利率下降，要警惕低利润订单、客户压价或竞争加剧。",
+      "如果库存上升但收入不跟进，要警惕提前拉货而不是真实终端需求。"
+    ],
+    "next_watch": [
+      "LITE 是否披露 Cloud / AI revenue、CW laser 订单、客户预付款和 InP 产能利用率。",
+      "COHR 是否披露 6 英寸 InP 利用率、AI datacom 收入、1.6T 出货和毛利率改善。",
+      "Nvidia / Google / Broadcom 是否在 rack-scale 架构中更明确采用 CPO、NPO、OCS 或硅光。",
+      "800G 到 1.6T 的升级是否继续放量，且没有明显价格竞争压低毛利率。",
+      "是否出现 CPO/NPO 延后、铜缆/AEC 继续满足需求、库存上升或客户砍单等证伪信号。"
+    ],
+    "plain": "人话结论：现在能比较确定的是 AI 数据中心还在推高速光模块升级；更大的想象空间是光进入机柜和 GPU 计算域。但这件事还需要订单、收入、产能利用率和毛利率来证明。LITE 更直接赌光源弹性，COHR 更像赌大规模光子制造平台。"
+  },
   "architecture_layers": [
     {
       "id": "scale-in",

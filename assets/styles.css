@@ -223,7 +223,8 @@ main {
 .timeline-item,
 .accordion details,
 .error-box,
-.disclaimer {
+.disclaimer,
+.independent-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(17, 24, 33, 0.9);
@@ -251,6 +252,77 @@ main {
   color: #cdd8e5;
   padding-top: 0.65rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.independent-card {
+  padding: 1rem;
+  border-color: rgba(115, 183, 255, 0.32);
+}
+
+.readout-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.readout-hero h3 {
+  margin: 0.7rem 0 0.8rem;
+  font-size: clamp(1.25rem, 2.4vw, 2rem);
+  line-height: 1.32;
+}
+
+.source-box,
+.readout-block,
+.evidence-item {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(8, 12, 18, 0.38);
+  padding: 0.85rem;
+}
+
+.source-box h4,
+.readout-block h4,
+.evidence-list h4 {
+  margin: 0 0 0.45rem;
+}
+
+.source-box ul,
+.readout-block ul {
+  margin: 0.35rem 0 0.75rem;
+  padding-left: 1.2rem;
+}
+
+.readout-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.readout-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.evidence-list {
+  margin-top: 1rem;
+}
+
+.evidence-list h4 {
+  color: #d9e6f5;
+}
+
+.evidence-item {
+  margin-top: 0.65rem;
+}
+
+.evidence-item h5 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.evidence-item p {
+  margin: 0.35rem 0;
 }
 
 .muted {
@@ -396,6 +468,57 @@ th {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+}
+
+.conclusion-panel {
+  margin-bottom: 1rem;
+}
+
+.conclusion-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(17, 24, 33, 0.95);
+}
+
+.conclusion-card.good {
+  border-color: rgba(84, 211, 154, 0.42);
+}
+
+.conclusion-card.risk {
+  border-color: rgba(255, 125, 125, 0.42);
+}
+
+.conclusion-card.watch {
+  border-color: rgba(230, 193, 90, 0.34);
+}
+
+.conclusion-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.05rem, 1.8vw, 1.4rem);
+  line-height: 1.45;
+}
+
+.conclusion-stats {
+  align-content: start;
+}
+
+.next-actions {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 0.75rem;
+}
+
+.next-actions h4 {
+  margin: 0 0 0.4rem;
+}
+
+.next-actions ul {
+  margin: 0;
+  padding-left: 1.2rem;
 }
 
 .kpi-card {
@@ -729,6 +852,10 @@ mark {
   .card-grid.four,
   .filter-grid,
   .weekly-grid,
+  .conclusion-card,
+  .readout-hero,
+  .readout-grid,
+  .readout-grid.three,
   .arch-layer {
     grid-template-columns: 1fr;
   }
