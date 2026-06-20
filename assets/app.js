@@ -218,12 +218,25 @@ function renderCompanyCompare() {
 function renderKpis() {
   byId("kpiList").innerHTML = (state.memo.kpis || []).map((kpi, index) => {
     const current = state.kpiStatus[kpi.name] || "未验证";
+    const systemStatus = kpi.system_status || "待判断";
     return `
       <article class="kpi-card" data-kpi="${escapeAttr(kpi.name)}">
-        <h3>${index + 1}. ${escapeHtml(kpi.name)}</h3>
+        <div class="kpi-title-row">
+          <h3>${index + 1}. ${escapeHtml(kpi.name)}</h3>
+          <span class="pill ${kpiStatusClass(systemStatus)}">系统：${escapeHtml(systemStatus)}</span>
+        </div>
         <p><strong>解释：</strong>${escapeHtml(kpi.why)}</p>
         <p><strong>验证：</strong>${escapeHtml(kpi.good_signal)}</p>
         <p><strong>风险：</strong>${escapeHtml(kpi.bad_signal)}</p>
+        ${kpi.validation_result ? `<div class="system-result"><strong>系统验证结果：</strong>${escapeHtml(kpi.validation_result)}</div>` : ""}
+        ${kpi.evidence_basis?.length ? `
+          <div class="kpi-evidence">
+            <strong>依据：</strong>
+            <ul>${kpi.evidence_basis.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+          </div>
+        ` : ""}
+        ${kpi.next_watch ? `<p class="muted"><strong>下一步观察：</strong>${escapeHtml(kpi.next_watch)}</p>` : ""}
+        <p class="muted small">人工复核状态：</p>
         <div class="segmented" role="group" aria-label="${escapeAttr(kpi.name)} 状态">
           ${KPI_STATES.map((item) => `<button type="button" class="${item === current ? "active" : ""}" data-status="${escapeAttr(item)}">${escapeHtml(item)}</button>`).join("")}
         </div>
@@ -751,6 +764,13 @@ function confidenceClass(value = "") {
   if (value === "High") return "good";
   if (value === "Low") return "risk";
   return "watch";
+}
+
+function kpiStatusClass(value = "") {
+  if (value === "已验证") return "good";
+  if (value === "风险信号") return "risk";
+  if (value === "观察中") return "watch";
+  return "";
 }
 
 function highlight(value) {

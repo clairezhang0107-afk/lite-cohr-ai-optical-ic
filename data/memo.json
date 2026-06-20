@@ -101,61 +101,212 @@
       "name": "Scale in：单机内部 / 芯片附近",
       "explanation": "Scale in = 单台服务器内部，目标是把数据喂给芯片，让 GPU / TPU / NPU 不空转。",
       "plain": "单机内部的高速路。",
-      "nodes": ["CPU", "GPU / TPU / NPU / AI ASIC", "HBM", "DDR", "PCIe", "CXL", "NVLink-C2C", "Infinity Fabric", "VRM", "散热"]
+      "nodes": [
+        "CPU",
+        "GPU / TPU / NPU / AI ASIC",
+        "HBM",
+        "DDR",
+        "PCIe",
+        "CXL",
+        "NVLink-C2C",
+        "Infinity Fabric",
+        "VRM",
+        "散热"
+      ]
     },
     {
       "id": "scale-up",
       "name": "Scale up：多 GPU / TPU 形成大计算域",
       "explanation": "Scale up = 把多个 GPU / TPU 连成一个更大的计算域，让它们像一个大芯片一样工作。",
       "plain": "把很多 GPU 绑成一个大 GPU。",
-      "nodes": ["GPU tray", "NVLink", "NVSwitch", "NVLink Switch", "TPU ICI", "OCS", "NPO", "CPO", "XPO", "CW laser", "UHP laser", "InP 光芯片"]
+      "nodes": [
+        "GPU tray",
+        "NVLink",
+        "NVSwitch",
+        "NVLink Switch",
+        "TPU ICI",
+        "OCS",
+        "NPO",
+        "CPO",
+        "XPO",
+        "CW laser",
+        "UHP laser",
+        "InP 光芯片"
+      ]
     },
     {
       "id": "scale-out",
       "name": "Scale out：多服务器 / 多机柜 / 多数据中心互联",
       "explanation": "Scale out = 把很多服务器、机柜、数据中心连成大集群。",
       "plain": "让几千、几万张 GPU 一起工作。",
-      "nodes": ["NIC", "DPU", "光模块", "光纤", "Leaf / ToR switch", "Spine switch", "Ethernet", "InfiniBand", "RoCE", "800G", "1.6T", "3.2T", "DCI", "相干光", "DWDM"]
+      "nodes": [
+        "NIC",
+        "DPU",
+        "光模块",
+        "光纤",
+        "Leaf / ToR switch",
+        "Spine switch",
+        "Ethernet",
+        "InfiniBand",
+        "RoCE",
+        "800G",
+        "1.6T",
+        "3.2T",
+        "DCI",
+        "相干光",
+        "DWDM"
+      ]
     }
   ],
   "tooltips": {
-    "CPU": {"technical": "Central Processing Unit，中央处理器。", "plain": "服务器里的通用大脑。"},
-    "GPU / TPU / NPU / AI ASIC": {"technical": "用于 AI 训练和推理的加速芯片。", "plain": "真正跑大模型计算的发动机。"},
-    "HBM": {"technical": "High Bandwidth Memory，高带宽内存。", "plain": "紧挨着 AI 芯片的超快粮仓。"},
-    "DDR": {"technical": "服务器主内存。", "plain": "容量更大但离芯片更远的内存。"},
-    "PCIe": {"technical": "Peripheral Component Interconnect Express，服务器内部高速总线。", "plain": "芯片和设备之间的通用高速路。"},
-    "CXL": {"technical": "Compute Express Link，CPU、内存和加速器之间的高速互联协议。", "plain": "让芯片更灵活共享内存和设备。"},
-    "NVLink-C2C": {"technical": "NVIDIA chip-to-chip interconnect。", "plain": "NVIDIA 芯片之间贴得很近时用的高速通道。"},
-    "Infinity Fabric": {"technical": "AMD 的芯片互联架构。", "plain": "AMD 芯片内部和芯片之间的高速网络。"},
-    "VRM": {"technical": "Voltage Regulator Module，电压调节模块。", "plain": "给芯片稳定供电的电源系统。"},
-    "散热": {"technical": "风冷、液冷等热管理系统。", "plain": "把 AI 芯片产生的热及时带走。"},
-    "GPU tray": {"technical": "承载多颗 GPU 的托盘或计算板。", "plain": "把多张 GPU 放在一起的一层计算单元。"},
-    "NVLink": {"technical": "NVIDIA GPU 间高速互联。", "plain": "让多颗 GPU 快速交换数据的专用通道。"},
-    "NVSwitch": {"technical": "NVIDIA GPU 互联交换芯片。", "plain": "GPU 之间的高速交换机。"},
-    "NVLink Switch": {"technical": "用于扩展 NVLink 网络的交换设备。", "plain": "把更多 GPU 连成更大计算域。"},
-    "TPU ICI": {"technical": "TPU Inter-Chip Interconnect，Google TPU 间互联。", "plain": "Google TPU 之间互相说话的高速路。"},
-    "OCS": {"technical": "Optical Circuit Switching，光路交换。", "plain": "不先把光变成电，而是直接改变光走哪条路。"},
-    "NPO": {"technical": "Near-Packaged Optics，近封装光学。", "plain": "比传统光模块更靠近芯片，但比 CPO 更容易维护。"},
-    "CPO": {"technical": "Co-Packaged Optics，共封装光学。", "plain": "把光引擎放到交换芯片旁边，减少电信号长距离传输损耗。"},
-    "XPO": {"technical": "泛指更深度近封装 / 共封装光互联路线。", "plain": "光越来越靠近芯片。"},
-    "CW laser": {"technical": "Continuous Wave Laser，连续波激光器。", "plain": "持续发光的光源发动机。"},
-    "UHP laser": {"technical": "Ultra High Power Laser，超高功率激光器。", "plain": "给更多光通道供光的强力光源。"},
-    "InP 光芯片": {"technical": "Indium Phosphide，磷化铟光芯片。", "plain": "很多高速光芯片和激光器的底层材料。"},
-    "NIC": {"technical": "Network Interface Card，网卡。", "plain": "服务器接入网络的接口。"},
-    "DPU": {"technical": "Data Processing Unit，数据处理器。", "plain": "帮 CPU 分担网络、安全和存储工作的芯片。"},
-    "光模块": {"technical": "Optical transceiver，把电信号和光信号互相转换。", "plain": "服务器和交换机接光纤的插拔小盒子。"},
-    "光纤": {"technical": "用于传输光信号的玻璃纤维。", "plain": "让数据用光跑的线。"},
-    "Leaf / ToR switch": {"technical": "机柜顶部或接入层交换机。", "plain": "服务器先接入的小交换机。"},
-    "Spine switch": {"technical": "数据中心骨干交换机。", "plain": "把很多接入交换机连起来的大交换机。"},
-    "Ethernet": {"technical": "以太网，主流数据中心网络协议。", "plain": "最通用的数据中心联网方式。"},
-    "InfiniBand": {"technical": "高性能计算常用低延迟网络。", "plain": "AI 集群里常见的高速专用网络。"},
-    "RoCE": {"technical": "RDMA over Converged Ethernet。", "plain": "让以太网也能低延迟搬数据。"},
-    "800G": {"technical": "每秒 800Gbps 的光互联速率。", "plain": "当前 AI 数据中心高速光模块主力规格之一。"},
-    "1.6T": {"technical": "每秒 1.6Tbps 的光互联速率。", "plain": "800G 之后的新一代升级。"},
-    "3.2T": {"technical": "每秒 3.2Tbps 的光互联速率。", "plain": "更远期的高速光模块规格。"},
-    "DCI": {"technical": "Data Center Interconnect，数据中心互联。", "plain": "把不同数据中心连接起来。"},
-    "相干光": {"technical": "Coherent optics，用相位和偏振等方式提高传输效率。", "plain": "适合更远距离、更高容量的光通信。"},
-    "DWDM": {"technical": "Dense Wavelength Division Multiplexing，密集波分复用。", "plain": "一根光纤里同时跑很多种颜色的光。"}
+    "CPU": {
+      "technical": "Central Processing Unit，中央处理器。",
+      "plain": "服务器里的通用大脑。"
+    },
+    "GPU / TPU / NPU / AI ASIC": {
+      "technical": "用于 AI 训练和推理的加速芯片。",
+      "plain": "真正跑大模型计算的发动机。"
+    },
+    "HBM": {
+      "technical": "High Bandwidth Memory，高带宽内存。",
+      "plain": "紧挨着 AI 芯片的超快粮仓。"
+    },
+    "DDR": {
+      "technical": "服务器主内存。",
+      "plain": "容量更大但离芯片更远的内存。"
+    },
+    "PCIe": {
+      "technical": "Peripheral Component Interconnect Express，服务器内部高速总线。",
+      "plain": "芯片和设备之间的通用高速路。"
+    },
+    "CXL": {
+      "technical": "Compute Express Link，CPU、内存和加速器之间的高速互联协议。",
+      "plain": "让芯片更灵活共享内存和设备。"
+    },
+    "NVLink-C2C": {
+      "technical": "NVIDIA chip-to-chip interconnect。",
+      "plain": "NVIDIA 芯片之间贴得很近时用的高速通道。"
+    },
+    "Infinity Fabric": {
+      "technical": "AMD 的芯片互联架构。",
+      "plain": "AMD 芯片内部和芯片之间的高速网络。"
+    },
+    "VRM": {
+      "technical": "Voltage Regulator Module，电压调节模块。",
+      "plain": "给芯片稳定供电的电源系统。"
+    },
+    "散热": {
+      "technical": "风冷、液冷等热管理系统。",
+      "plain": "把 AI 芯片产生的热及时带走。"
+    },
+    "GPU tray": {
+      "technical": "承载多颗 GPU 的托盘或计算板。",
+      "plain": "把多张 GPU 放在一起的一层计算单元。"
+    },
+    "NVLink": {
+      "technical": "NVIDIA GPU 间高速互联。",
+      "plain": "让多颗 GPU 快速交换数据的专用通道。"
+    },
+    "NVSwitch": {
+      "technical": "NVIDIA GPU 互联交换芯片。",
+      "plain": "GPU 之间的高速交换机。"
+    },
+    "NVLink Switch": {
+      "technical": "用于扩展 NVLink 网络的交换设备。",
+      "plain": "把更多 GPU 连成更大计算域。"
+    },
+    "TPU ICI": {
+      "technical": "TPU Inter-Chip Interconnect，Google TPU 间互联。",
+      "plain": "Google TPU 之间互相说话的高速路。"
+    },
+    "OCS": {
+      "technical": "Optical Circuit Switching，光路交换。",
+      "plain": "不先把光变成电，而是直接改变光走哪条路。"
+    },
+    "NPO": {
+      "technical": "Near-Packaged Optics，近封装光学。",
+      "plain": "比传统光模块更靠近芯片，但比 CPO 更容易维护。"
+    },
+    "CPO": {
+      "technical": "Co-Packaged Optics，共封装光学。",
+      "plain": "把光引擎放到交换芯片旁边，减少电信号长距离传输损耗。"
+    },
+    "XPO": {
+      "technical": "泛指更深度近封装 / 共封装光互联路线。",
+      "plain": "光越来越靠近芯片。"
+    },
+    "CW laser": {
+      "technical": "Continuous Wave Laser，连续波激光器。",
+      "plain": "持续发光的光源发动机。"
+    },
+    "UHP laser": {
+      "technical": "Ultra High Power Laser，超高功率激光器。",
+      "plain": "给更多光通道供光的强力光源。"
+    },
+    "InP 光芯片": {
+      "technical": "Indium Phosphide，磷化铟光芯片。",
+      "plain": "很多高速光芯片和激光器的底层材料。"
+    },
+    "NIC": {
+      "technical": "Network Interface Card，网卡。",
+      "plain": "服务器接入网络的接口。"
+    },
+    "DPU": {
+      "technical": "Data Processing Unit，数据处理器。",
+      "plain": "帮 CPU 分担网络、安全和存储工作的芯片。"
+    },
+    "光模块": {
+      "technical": "Optical transceiver，把电信号和光信号互相转换。",
+      "plain": "服务器和交换机接光纤的插拔小盒子。"
+    },
+    "光纤": {
+      "technical": "用于传输光信号的玻璃纤维。",
+      "plain": "让数据用光跑的线。"
+    },
+    "Leaf / ToR switch": {
+      "technical": "机柜顶部或接入层交换机。",
+      "plain": "服务器先接入的小交换机。"
+    },
+    "Spine switch": {
+      "technical": "数据中心骨干交换机。",
+      "plain": "把很多接入交换机连起来的大交换机。"
+    },
+    "Ethernet": {
+      "technical": "以太网，主流数据中心网络协议。",
+      "plain": "最通用的数据中心联网方式。"
+    },
+    "InfiniBand": {
+      "technical": "高性能计算常用低延迟网络。",
+      "plain": "AI 集群里常见的高速专用网络。"
+    },
+    "RoCE": {
+      "technical": "RDMA over Converged Ethernet。",
+      "plain": "让以太网也能低延迟搬数据。"
+    },
+    "800G": {
+      "technical": "每秒 800Gbps 的光互联速率。",
+      "plain": "当前 AI 数据中心高速光模块主力规格之一。"
+    },
+    "1.6T": {
+      "technical": "每秒 1.6Tbps 的光互联速率。",
+      "plain": "800G 之后的新一代升级。"
+    },
+    "3.2T": {
+      "technical": "每秒 3.2Tbps 的光互联速率。",
+      "plain": "更远期的高速光模块规格。"
+    },
+    "DCI": {
+      "technical": "Data Center Interconnect，数据中心互联。",
+      "plain": "把不同数据中心连接起来。"
+    },
+    "相干光": {
+      "technical": "Coherent optics，用相位和偏振等方式提高传输效率。",
+      "plain": "适合更远距离、更高容量的光通信。"
+    },
+    "DWDM": {
+      "technical": "Dense Wavelength Division Multiplexing，密集波分复用。",
+      "plain": "一根光纤里同时跑很多种颜色的光。"
+    }
   },
   "companies": [
     {
@@ -163,9 +314,28 @@
       "name": "Lumentum",
       "tag": "AI 光源 / InP / CW laser / UHP laser 弹性",
       "ai_exposure": "更集中",
-      "core_products": ["CW laser", "UHP laser", "EML", "1.6T 光模块原型", "OCS/CPO/NPO 相关光源", "InP 光芯片"],
-      "catalysts": ["CPO/NPO 放量", "InP 产能紧缺", "CW laser 订单增加", "毛利率继续扩张", "客户预付款增加"],
-      "risks": ["客户集中", "产能爬坡", "技术路线延后", "CPO/NPO 放量不及预期", "良率低导致交付受限"],
+      "core_products": [
+        "CW laser",
+        "UHP laser",
+        "EML",
+        "1.6T 光模块原型",
+        "OCS/CPO/NPO 相关光源",
+        "InP 光芯片"
+      ],
+      "catalysts": [
+        "CPO/NPO 放量",
+        "InP 产能紧缺",
+        "CW laser 订单增加",
+        "毛利率继续扩张",
+        "客户预付款增加"
+      ],
+      "risks": [
+        "客户集中",
+        "产能爬坡",
+        "技术路线延后",
+        "CPO/NPO 放量不及预期",
+        "良率低导致交付受限"
+      ],
       "best_for_testing": "Scale-up 光互联是否从故事变成订单和收入。"
     },
     {
@@ -173,57 +343,351 @@
       "name": "Coherent",
       "tag": "垂直整合光子平台",
       "ai_exposure": "更分散",
-      "core_products": ["6 英寸 InP", "光模块", "EML", "CW laser", "CPO enabling", "datacom transceivers", "光子制造平台"],
-      "catalysts": ["6 英寸 InP 扩产", "1.6T 出货", "CPO enabling 放量", "AI datacom 收入提升", "毛利率改善"],
-      "risks": ["业务复杂", "非 AI 板块拖累", "资本开支高", "整合难度", "价格竞争"],
+      "core_products": [
+        "6 英寸 InP",
+        "光模块",
+        "EML",
+        "CW laser",
+        "CPO enabling",
+        "datacom transceivers",
+        "光子制造平台"
+      ],
+      "catalysts": [
+        "6 英寸 InP 扩产",
+        "1.6T 出货",
+        "CPO enabling 放量",
+        "AI datacom 收入提升",
+        "毛利率改善"
+      ],
+      "risks": [
+        "业务复杂",
+        "非 AI 板块拖累",
+        "资本开支高",
+        "整合难度",
+        "价格竞争"
+      ],
       "best_for_testing": "AI 光互联是否进入长期大规模制造平台化阶段。"
     }
   ],
   "kpis": [
-    {"name": "Cloud / AI revenue 占比", "why": "看 AI 需求是否真的进入收入，而不是公司只讲概念。", "good_signal": "如果 AI revenue 占比持续上升，说明 AI 光互联需求在兑现。", "bad_signal": "如果收入增长但 AI 占比不升，说明可能不是 AI 主线驱动。"},
-    {"name": "1.6T transceiver 出货节奏", "why": "看 Scale-out 光模块升级是否延续。", "good_signal": "1.6T 放量说明 800G 之后仍有升级需求。", "bad_signal": "如果 1.6T 延迟，说明 Scale-out 节奏可能变慢。"},
-    {"name": "CW laser 订单", "why": "看 CPO / NPO / Scale-up 光互联是否启动。", "good_signal": "CW laser 订单增加，说明光源需求可能从概念变成真实订单。", "bad_signal": "如果订单没有增长，Scale-up 光互联可能还停留在验证阶段。"},
-    {"name": "InP 产能利用率", "why": "看上游光芯片是否真的供给紧张。", "good_signal": "产能利用率上升、客户预付款增加，说明可能有供给缺口。", "bad_signal": "如果扩产但利用率不高，可能是提前押注。"},
-    {"name": "毛利率变化", "why": "看供不应求是否转化成利润。", "good_signal": "收入增长 + 毛利率上升，是最强信号。", "bad_signal": "收入增长 + 毛利率下降，可能是低利润订单或客户压价。"},
-    {"name": "库存和预付款", "why": "判断是真需求还是提前拉货。", "good_signal": "预付款增加通常说明客户在锁产能。", "bad_signal": "库存上升但收入不跟进，可能是需求质量变差。"},
-    {"name": "客户集中度", "why": "看是否过度依赖 Nvidia、Google 或单一云厂。", "good_signal": "客户集中度高会放大收入弹性。", "bad_signal": "客户集中度高也会放大砍单风险。"},
-    {"name": "Nvidia / Google / Broadcom 架构路线", "why": "决定 Scale-up 光化速度。", "good_signal": "如果 Nvidia / Google / Broadcom 更明确采用 CPO、NPO、OCS、硅光，Scale-up 光互联假设增强。", "bad_signal": "如果继续铜缆 / AEC / 传统可插拔方案，光入柜节奏可能延后。"}
+    {
+      "name": "Cloud / AI revenue 占比",
+      "why": "看 AI 需求是否真的进入收入，而不是公司只讲概念。",
+      "good_signal": "如果 AI revenue 占比持续上升，说明 AI 光互联需求在兑现。",
+      "bad_signal": "如果收入增长但 AI 占比不升，说明可能不是 AI 主线驱动。",
+      "system_status": "观察中",
+      "validation_result": "现有公开信息支持 AI / cloud demand 正在成为收入驱动，但样例证据还不足以拆出稳定的 Cloud / AI revenue 占比趋势，因此不能标为已验证。",
+      "evidence_basis": [
+        "LITE / COHR 的公开信息和样例新闻均指向 AI datacom / cloud data center 需求增强。",
+        "当前数据文件尚未记录连续季度的 AI revenue 占比。"
+      ],
+      "next_watch": "下一步看 LITE / COHR 是否披露 AI revenue、Cloud revenue 或 AI datacom revenue 占比，并观察是否连续上升。"
+    },
+    {
+      "name": "1.6T transceiver 出货节奏",
+      "why": "看 Scale-out 光模块升级是否延续。",
+      "good_signal": "1.6T 放量说明 800G 之后仍有升级需求。",
+      "bad_signal": "如果 1.6T 延迟，说明 Scale-out 节奏可能变慢。",
+      "system_status": "观察中",
+      "validation_result": "现有证据支持 800G 向 1.6T 升级是 Scale-out 主线，但还没有足够数据证明 1.6T 已进入持续批量出货。",
+      "evidence_basis": [
+        "COHR 证据链把 1.6T 出货列为核心 KPI。",
+        "样例新闻显示 1.6T 与 AI datacom / Scale-out 升级有关。"
+      ],
+      "next_watch": "下一步看 1.6T 是否进入大客户批量订单、收入贡献和毛利率改善，而不是只停留在样品或验证。"
+    },
+    {
+      "name": "CW laser 订单",
+      "why": "看 CPO / NPO / Scale-up 光互联是否启动。",
+      "good_signal": "CW laser 订单增加，说明光源需求可能从概念变成真实订单。",
+      "bad_signal": "如果订单没有增长，Scale-up 光互联可能还停留在验证阶段。",
+      "system_status": "观察中",
+      "validation_result": "现有非卖方证据显示 CW laser 是 CPO / NPO / Scale-up 光互联的关键观察点，但尚未看到足够公开数据证明订单已经持续增加，所以当前结论是观察中，不是已验证。",
+      "evidence_basis": [
+        "LITE 证据链显示 CW laser / UHP laser / InP 光源是 AI 光互联核心观察项。",
+        "样例新闻显示 LITE 扩大 AI 数据中心相关 InP / CW laser / UHP laser 产能。",
+        "风险证据显示如果 CPO/NPO 延后，CW laser 订单兑现也可能延后。"
+      ],
+      "next_watch": "下一步看 LITE 是否披露 CW laser 订单、外部激光光源模块、客户预付款、产能利用率和毛利率变化。"
+    },
+    {
+      "name": "InP 产能利用率",
+      "why": "看上游光芯片是否真的供给紧张。",
+      "good_signal": "产能利用率上升、客户预付款增加，说明可能有供给缺口。",
+      "bad_signal": "如果扩产但利用率不高，可能是提前押注。",
+      "system_status": "观察中",
+      "validation_result": "现有证据支持 InP 是 LITE / COHR 的关键供给环节，但还没有公开数据足以证明产能利用率已经持续高位或形成明确供给缺口。",
+      "evidence_basis": [
+        "LITE 和 COHR 证据链都把 InP 产能利用率列为核心 KPI。",
+        "COHR 证据链显示 6 英寸 InP 是平台化制造能力的关键。"
+      ],
+      "next_watch": "下一步看 InP 扩产、利用率、良率、客户预付款和交付周期是否同步改善。"
+    },
+    {
+      "name": "毛利率变化",
+      "why": "看供不应求是否转化成利润。",
+      "good_signal": "收入增长 + 毛利率上升，是最强信号。",
+      "bad_signal": "收入增长 + 毛利率下降，可能是低利润订单或客户压价。",
+      "system_status": "观察中",
+      "validation_result": "现有逻辑显示收入增长叠加毛利率改善才是强验证，但当前证据库尚未记录连续财报毛利率趋势，所以不能标为已验证。",
+      "evidence_basis": [
+        "多个影响链把毛利率变化列为受影响 KPI。",
+        "如果 CPO/NPO、InP 或 CW laser 需求真实紧张，理论上应体现为产品 mix 或议价能力改善。"
+      ],
+      "next_watch": "下一步看收入增长是否伴随 gross margin / operating margin 改善；若收入增长但毛利率下降，要警惕低利润订单或客户压价。"
+    },
+    {
+      "name": "库存和预付款",
+      "why": "判断是真需求还是提前拉货。",
+      "good_signal": "预付款增加通常说明客户在锁产能。",
+      "bad_signal": "库存上升但收入不跟进，可能是需求质量变差。",
+      "system_status": "未验证",
+      "validation_result": "当前证据库还没有足够公开数据判断库存和预付款是否支持真实需求，因此保持未验证。",
+      "evidence_basis": [
+        "InP 与 CW laser 的验证逻辑需要客户预付款和库存周转数据。",
+        "当前样例数据没有连续披露库存、预付款和收入兑现的配套证据。"
+      ],
+      "next_watch": "下一步看客户预付款是否增加、库存周转是否正常，以及库存上升是否能转化为后续收入。"
+    },
+    {
+      "name": "客户集中度",
+      "why": "看是否过度依赖 Nvidia、Google 或单一云厂。",
+      "good_signal": "客户集中度高会放大收入弹性。",
+      "bad_signal": "客户集中度高也会放大砍单风险。",
+      "system_status": "观察中",
+      "validation_result": "现有证据显示 Nvidia / Google / Broadcom 等关键客户和架构路线很重要，但客户集中度本身还没有被量化验证。",
+      "evidence_basis": [
+        "证据链多次指向 Nvidia / Google / Broadcom 架构路线。",
+        "若单一大客户贡献过高，收入弹性和砍单风险都会被放大。"
+      ],
+      "next_watch": "下一步看 LITE / COHR 是否披露大客户占比、采购承诺、客户预付款和客户扩散情况。"
+    },
+    {
+      "name": "Nvidia / Google / Broadcom 架构路线",
+      "why": "决定 Scale-up 光化速度。",
+      "good_signal": "如果 Nvidia / Google / Broadcom 更明确采用 CPO、NPO、OCS、硅光，Scale-up 光互联假设增强。",
+      "bad_signal": "如果继续铜缆 / AEC / 传统可插拔方案，光入柜节奏可能延后。",
+      "system_status": "观察中",
+      "validation_result": "现有证据支持 rack-scale 架构正在提高光互联关注度，但公开信息仍不足以证明 CPO / NPO / OCS 已经成为大规模确定路线。",
+      "evidence_basis": [
+        "NVDA 证据链显示 Rubin / NVL72 和 rack-scale optical interconnect 是核心观察点。",
+        "风险证据显示铜缆 / AEC / 传统可插拔仍可能延后光入柜。"
+      ],
+      "next_watch": "下一步看 Nvidia / Google / Broadcom 是否明确采用 CPO、NPO、OCS 或硅光，并带来 LITE / COHR 的订单和毛利率兑现。"
+    }
   ],
   "risks": [
-    {"title": "Scale-up 光互联放量慢于预期", "explanation": "如果 Nvidia、Google 或云厂商继续使用铜缆、AEC、传统可插拔方案，CPO/NPO 兑现会延后。"},
-    {"title": "铜缆 / AEC 继续满足需求", "explanation": "如果高速铜缆仍能满足距离、功耗和成本要求，光入柜不是刚需。"},
-    {"title": "CPO 良率和维护成本过高", "explanation": "CPO 理论上降低功耗，但维护难度更高，现场替换也更复杂。"},
-    {"title": "InP 缺口限制交付，而不是提高利润", "explanation": "供给紧可以提升议价能力，但也可能导致出货受限。"},
-    {"title": "大客户压价", "explanation": "即使需求强，大客户仍可能压低供应商毛利率。"},
-    {"title": "库存上升但收入不跟进", "explanation": "这可能说明需求是提前拉货，不是真实终端需求。"},
-    {"title": "3–4 倍 Scale-out TAM 假设过于乐观", "explanation": "这个倍数依赖 Scale-up 光化速度、GPU 架构、客户导入节奏、连接数量和良率，不应直接当确定事实。"}
+    {
+      "title": "Scale-up 光互联放量慢于预期",
+      "explanation": "如果 Nvidia、Google 或云厂商继续使用铜缆、AEC、传统可插拔方案，CPO/NPO 兑现会延后。"
+    },
+    {
+      "title": "铜缆 / AEC 继续满足需求",
+      "explanation": "如果高速铜缆仍能满足距离、功耗和成本要求，光入柜不是刚需。"
+    },
+    {
+      "title": "CPO 良率和维护成本过高",
+      "explanation": "CPO 理论上降低功耗，但维护难度更高，现场替换也更复杂。"
+    },
+    {
+      "title": "InP 缺口限制交付，而不是提高利润",
+      "explanation": "供给紧可以提升议价能力，但也可能导致出货受限。"
+    },
+    {
+      "title": "大客户压价",
+      "explanation": "即使需求强，大客户仍可能压低供应商毛利率。"
+    },
+    {
+      "title": "库存上升但收入不跟进",
+      "explanation": "这可能说明需求是提前拉货，不是真实终端需求。"
+    },
+    {
+      "title": "3–4 倍 Scale-out TAM 假设过于乐观",
+      "explanation": "这个倍数依赖 Scale-up 光化速度、GPU 架构、客户导入节奏、连接数量和良率，不应直接当确定事实。"
+    }
   ],
   "glossary": [
-    {"term": "Scale in", "full": "Scale in", "cn": "单机内部扩展", "plain": "单机内部的高速路。", "investment": "决定 AI 芯片是否能被数据喂饱，但通常不是 LITE / COHR 最直接的收入主线。"},
-    {"term": "Scale up", "full": "Scale up", "cn": "多芯片 / 多加速器组成一个大计算域", "plain": "把很多 GPU 绑成一个大 GPU。", "investment": "如果光进入 Scale-up，CW laser、InP、CPO/NPO/XPO 的期权价值会提高。"},
-    {"term": "Scale out", "full": "Scale out", "cn": "服务器、机柜和集群之间互联", "plain": "让几千、几万张 GPU 一起工作。", "investment": "当前确定性最高，重点验证 800G 到 1.6T 的升级。"},
-    {"term": "Scale across", "full": "Scale across", "cn": "跨集群或跨数据中心协同", "plain": "让不同地方的大集群互相配合。", "investment": "会增加 DCI、相干光和 DWDM 的中长期需求。"},
-    {"term": "CPO", "full": "Co-Packaged Optics", "cn": "共封装光学", "plain": "把光引擎放到交换芯片旁边，减少电信号长距离传输损耗。", "investment": "如果 CPO 放量，高功率 CW laser、InP 光芯片、硅光、光引擎需求可能增加。"},
-    {"term": "NPO", "full": "Near-Packaged Optics", "cn": "近封装光学", "plain": "比传统光模块更靠近芯片，但比 CPO 更容易维护。", "investment": "可能成为光入柜的过渡路线，利好光源和近封装供应链。"},
-    {"term": "XPO", "full": "Extended / advanced packaged optics", "cn": "泛指更深度近封装 / 共封装光互联路线", "plain": "光越来越靠近芯片。", "investment": "代表 Scale-up 光化程度加深，需观察真实订单和维护成本。"},
-    {"term": "LPO", "full": "Linear Pluggable Optics", "cn": "线性可插拔光模块", "plain": "尽量少用复杂 DSP，降低功耗和成本。", "investment": "可能影响 DSP 价值链，也可能加速 Scale-out 可插拔方案演进。"},
-    {"term": "OCS", "full": "Optical Circuit Switching", "cn": "光路交换", "plain": "不先把光变成电，而是直接改变光走哪条路。", "investment": "若云厂商采用 OCS，可能推动更多光器件进入 AI 网络架构。"},
-    {"term": "CW laser", "full": "Continuous Wave Laser", "cn": "连续波激光器", "plain": "持续发光的光源发动机。", "investment": "CPO/NPO 放量时，CW laser 可能成为上游瓶颈，LITE 敞口更直接。"},
-    {"term": "UHP laser", "full": "Ultra High Power Laser", "cn": "超高功率激光器", "plain": "给更多光通道供光的强力光源。", "investment": "高通道数光引擎可能需要更强光源，需观察订单和毛利率。"},
-    {"term": "InP", "full": "Indium Phosphide", "cn": "磷化铟", "plain": "很多高速光芯片和激光器的底层材料。", "investment": "InP 产能和良率影响 LITE / COHR 的交付和利润弹性。"},
-    {"term": "EML", "full": "Electro-absorption Modulated Laser", "cn": "电吸收调制激光器", "plain": "把发光和调制结合起来的高速光器件。", "investment": "高速光模块升级会影响 EML 需求。"},
-    {"term": "DSP", "full": "Digital Signal Processor", "cn": "数字信号处理器", "plain": "帮高速信号纠错和恢复的芯片。", "investment": "DSP 功耗和成本影响 LPO、CPO 与传统光模块路线竞争。"},
-    {"term": "Silicon Photonics", "full": "Silicon Photonics", "cn": "硅光", "plain": "用硅工艺做光芯片。", "investment": "可能提升规模化制造能力，但也会改变 InP 和传统光器件的价值分配。"},
-    {"term": "800G", "full": "800 Gigabit per second", "cn": "800G 光互联", "plain": "每秒传 800Gb 的高速连接。", "investment": "当前 AI 数据中心 Scale-out 的重要出货规格。"},
-    {"term": "1.6T", "full": "1.6 Terabit per second", "cn": "1.6T 光互联", "plain": "800G 之后更快一代。", "investment": "验证 Scale-out 是否继续升级的关键 KPI。"},
-    {"term": "3.2T", "full": "3.2 Terabit per second", "cn": "3.2T 光互联", "plain": "更远期的高速连接规格。", "investment": "代表长期带宽需求，但短期更偏路线观察。"},
-    {"term": "DCI", "full": "Data Center Interconnect", "cn": "数据中心互联", "plain": "把不同数据中心连接起来。", "investment": "AI 跨地域训练和推理可能提升 DCI 需求。"},
-    {"term": "DWDM", "full": "Dense Wavelength Division Multiplexing", "cn": "密集波分复用", "plain": "一根光纤里同时跑很多种颜色的光。", "investment": "提升长距离传输容量，利好相干光和传输设备。"},
-    {"term": "Coherent Optics", "full": "Coherent Optics", "cn": "相干光", "plain": "适合更远距离、更高容量的光通信。", "investment": "主要关联 DCI 和长距网络需求。"},
-    {"term": "NIC", "full": "Network Interface Card", "cn": "网卡", "plain": "服务器接入网络的接口。", "investment": "决定服务器进入 Scale-out 网络的吞吐能力。"},
-    {"term": "DPU", "full": "Data Processing Unit", "cn": "数据处理器", "plain": "帮 CPU 分担网络、安全和存储工作的芯片。", "investment": "影响云厂商网络架构和光模块需求节奏。"},
-    {"term": "Leaf-Spine", "full": "Leaf-Spine Network", "cn": "叶脊网络", "plain": "数据中心常用的两层交换网络。", "investment": "交换机升级会带动高速光模块端口需求。"},
-    {"term": "NVLink", "full": "NVIDIA NVLink", "cn": "NVIDIA GPU 间高速互联", "plain": "让多颗 GPU 快速交换数据的专用通道。", "investment": "若 NVLink 域扩大并引入光，会强化 Scale-up 光互联假设。"},
-    {"term": "NVSwitch", "full": "NVIDIA NVSwitch", "cn": "NVIDIA GPU 互联交换芯片", "plain": "GPU 之间的高速交换机。", "investment": "其架构路线影响 CPO/NPO 和 rack-scale optical interconnect 的导入节奏。"}
+    {
+      "term": "Scale in",
+      "full": "Scale in",
+      "cn": "单机内部扩展",
+      "plain": "单机内部的高速路。",
+      "investment": "决定 AI 芯片是否能被数据喂饱，但通常不是 LITE / COHR 最直接的收入主线。"
+    },
+    {
+      "term": "Scale up",
+      "full": "Scale up",
+      "cn": "多芯片 / 多加速器组成一个大计算域",
+      "plain": "把很多 GPU 绑成一个大 GPU。",
+      "investment": "如果光进入 Scale-up，CW laser、InP、CPO/NPO/XPO 的期权价值会提高。"
+    },
+    {
+      "term": "Scale out",
+      "full": "Scale out",
+      "cn": "服务器、机柜和集群之间互联",
+      "plain": "让几千、几万张 GPU 一起工作。",
+      "investment": "当前确定性最高，重点验证 800G 到 1.6T 的升级。"
+    },
+    {
+      "term": "Scale across",
+      "full": "Scale across",
+      "cn": "跨集群或跨数据中心协同",
+      "plain": "让不同地方的大集群互相配合。",
+      "investment": "会增加 DCI、相干光和 DWDM 的中长期需求。"
+    },
+    {
+      "term": "CPO",
+      "full": "Co-Packaged Optics",
+      "cn": "共封装光学",
+      "plain": "把光引擎放到交换芯片旁边，减少电信号长距离传输损耗。",
+      "investment": "如果 CPO 放量，高功率 CW laser、InP 光芯片、硅光、光引擎需求可能增加。"
+    },
+    {
+      "term": "NPO",
+      "full": "Near-Packaged Optics",
+      "cn": "近封装光学",
+      "plain": "比传统光模块更靠近芯片，但比 CPO 更容易维护。",
+      "investment": "可能成为光入柜的过渡路线，利好光源和近封装供应链。"
+    },
+    {
+      "term": "XPO",
+      "full": "Extended / advanced packaged optics",
+      "cn": "泛指更深度近封装 / 共封装光互联路线",
+      "plain": "光越来越靠近芯片。",
+      "investment": "代表 Scale-up 光化程度加深，需观察真实订单和维护成本。"
+    },
+    {
+      "term": "LPO",
+      "full": "Linear Pluggable Optics",
+      "cn": "线性可插拔光模块",
+      "plain": "尽量少用复杂 DSP，降低功耗和成本。",
+      "investment": "可能影响 DSP 价值链，也可能加速 Scale-out 可插拔方案演进。"
+    },
+    {
+      "term": "OCS",
+      "full": "Optical Circuit Switching",
+      "cn": "光路交换",
+      "plain": "不先把光变成电，而是直接改变光走哪条路。",
+      "investment": "若云厂商采用 OCS，可能推动更多光器件进入 AI 网络架构。"
+    },
+    {
+      "term": "CW laser",
+      "full": "Continuous Wave Laser",
+      "cn": "连续波激光器",
+      "plain": "持续发光的光源发动机。",
+      "investment": "CPO/NPO 放量时，CW laser 可能成为上游瓶颈，LITE 敞口更直接。"
+    },
+    {
+      "term": "UHP laser",
+      "full": "Ultra High Power Laser",
+      "cn": "超高功率激光器",
+      "plain": "给更多光通道供光的强力光源。",
+      "investment": "高通道数光引擎可能需要更强光源，需观察订单和毛利率。"
+    },
+    {
+      "term": "InP",
+      "full": "Indium Phosphide",
+      "cn": "磷化铟",
+      "plain": "很多高速光芯片和激光器的底层材料。",
+      "investment": "InP 产能和良率影响 LITE / COHR 的交付和利润弹性。"
+    },
+    {
+      "term": "EML",
+      "full": "Electro-absorption Modulated Laser",
+      "cn": "电吸收调制激光器",
+      "plain": "把发光和调制结合起来的高速光器件。",
+      "investment": "高速光模块升级会影响 EML 需求。"
+    },
+    {
+      "term": "DSP",
+      "full": "Digital Signal Processor",
+      "cn": "数字信号处理器",
+      "plain": "帮高速信号纠错和恢复的芯片。",
+      "investment": "DSP 功耗和成本影响 LPO、CPO 与传统光模块路线竞争。"
+    },
+    {
+      "term": "Silicon Photonics",
+      "full": "Silicon Photonics",
+      "cn": "硅光",
+      "plain": "用硅工艺做光芯片。",
+      "investment": "可能提升规模化制造能力，但也会改变 InP 和传统光器件的价值分配。"
+    },
+    {
+      "term": "800G",
+      "full": "800 Gigabit per second",
+      "cn": "800G 光互联",
+      "plain": "每秒传 800Gb 的高速连接。",
+      "investment": "当前 AI 数据中心 Scale-out 的重要出货规格。"
+    },
+    {
+      "term": "1.6T",
+      "full": "1.6 Terabit per second",
+      "cn": "1.6T 光互联",
+      "plain": "800G 之后更快一代。",
+      "investment": "验证 Scale-out 是否继续升级的关键 KPI。"
+    },
+    {
+      "term": "3.2T",
+      "full": "3.2 Terabit per second",
+      "cn": "3.2T 光互联",
+      "plain": "更远期的高速连接规格。",
+      "investment": "代表长期带宽需求，但短期更偏路线观察。"
+    },
+    {
+      "term": "DCI",
+      "full": "Data Center Interconnect",
+      "cn": "数据中心互联",
+      "plain": "把不同数据中心连接起来。",
+      "investment": "AI 跨地域训练和推理可能提升 DCI 需求。"
+    },
+    {
+      "term": "DWDM",
+      "full": "Dense Wavelength Division Multiplexing",
+      "cn": "密集波分复用",
+      "plain": "一根光纤里同时跑很多种颜色的光。",
+      "investment": "提升长距离传输容量，利好相干光和传输设备。"
+    },
+    {
+      "term": "Coherent Optics",
+      "full": "Coherent Optics",
+      "cn": "相干光",
+      "plain": "适合更远距离、更高容量的光通信。",
+      "investment": "主要关联 DCI 和长距网络需求。"
+    },
+    {
+      "term": "NIC",
+      "full": "Network Interface Card",
+      "cn": "网卡",
+      "plain": "服务器接入网络的接口。",
+      "investment": "决定服务器进入 Scale-out 网络的吞吐能力。"
+    },
+    {
+      "term": "DPU",
+      "full": "Data Processing Unit",
+      "cn": "数据处理器",
+      "plain": "帮 CPU 分担网络、安全和存储工作的芯片。",
+      "investment": "影响云厂商网络架构和光模块需求节奏。"
+    },
+    {
+      "term": "Leaf-Spine",
+      "full": "Leaf-Spine Network",
+      "cn": "叶脊网络",
+      "plain": "数据中心常用的两层交换网络。",
+      "investment": "交换机升级会带动高速光模块端口需求。"
+    },
+    {
+      "term": "NVLink",
+      "full": "NVIDIA NVLink",
+      "cn": "NVIDIA GPU 间高速互联",
+      "plain": "让多颗 GPU 快速交换数据的专用通道。",
+      "investment": "若 NVLink 域扩大并引入光，会强化 Scale-up 光互联假设。"
+    },
+    {
+      "term": "NVSwitch",
+      "full": "NVIDIA NVSwitch",
+      "cn": "NVIDIA GPU 互联交换芯片",
+      "plain": "GPU 之间的高速交换机。",
+      "investment": "其架构路线影响 CPO/NPO 和 rack-scale optical interconnect 的导入节奏。"
+    }
   ]
 }

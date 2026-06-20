@@ -535,6 +535,33 @@ th {
   margin: 0;
 }
 
+.kpi-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.kpi-title-row h3 {
+  min-width: 0;
+}
+
+.system-result {
+  padding: 0.75rem;
+  border: 1px solid rgba(115, 183, 255, 0.26);
+  border-radius: 8px;
+  background: rgba(115, 183, 255, 0.08);
+}
+
+.kpi-evidence {
+  color: #d8e2ee;
+}
+
+.kpi-evidence ul {
+  margin: 0.35rem 0 0;
+  padding-left: 1.2rem;
+}
+
 .segmented {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
