@@ -127,6 +127,7 @@ scripts/update-news.mjs
 
 - `data/memo.json`：IC 结论、公司对比、KPI、架构图、风险、术语。
 - `data/news.json`：新闻流和投资影响链。
+- `data/kpi-evidence.json`：非卖方数据、财报、电话会、新闻事实与 KPI 推理。
 - `data/weekly-updates.json`：每周复盘。
 - `data/thesis-log.json`：投资假设变化记录。
 

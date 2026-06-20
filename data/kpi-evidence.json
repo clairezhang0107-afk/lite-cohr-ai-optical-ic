@@ -1,0 +1,106 @@
+[
+  {
+    "id": "evidence-20260620-lite-001",
+    "date": "2026-06-20",
+    "source_type": "Company IR / Earnings",
+    "company": "LITE",
+    "source": "公司公开资料",
+    "title": "Lumentum AI 数据中心光源与 InP 相关公开信息",
+    "url": "",
+    "facts": [
+      "LITE 的 AI 光互联观察重点集中在 CW laser、UHP laser、InP 光芯片和 CPO/NPO 相关光源。",
+      "如果 CPO/NPO 或 rack-scale optical interconnect 放量，高功率连续波光源可能成为关键上游环节。",
+      "公开样例新闻显示 LITE 扩大 AI 数据中心相关 InP / CW laser / UHP laser 产能。"
+    ],
+    "mapped_kpis": [
+      "CW laser 订单",
+      "InP 产能利用率",
+      "毛利率变化",
+      "Cloud / AI revenue 占比"
+    ],
+    "affected_companies": ["LITE", "COHR", "NVDA"],
+    "reasoning": "这些事实支持 LITE 的上游光源弹性假设，但目前更像供给准备和架构期权，仍需订单金额、AI revenue 占比、产能利用率和毛利率验证。",
+    "kpi_status_suggestion": "观察中",
+    "thesis_effect": "Strengthen",
+    "confidence": "Medium",
+    "next_watch": "继续观察 LITE 是否披露 CW laser 订单、客户预付款、Cloud / AI revenue 占比、InP 产能利用率和毛利率变化。"
+  },
+  {
+    "id": "evidence-20260620-cohr-001",
+    "date": "2026-06-20",
+    "source_type": "Company IR / Earnings",
+    "company": "COHR",
+    "source": "公司公开资料",
+    "title": "Coherent 6 英寸 InP 与 AI datacom 制造平台公开信息",
+    "url": "",
+    "facts": [
+      "COHR 的 AI 光互联观察重点集中在 6 英寸 InP、EML、光模块、CW laser、CPO enabling 和 datacom transceivers。",
+      "公开样例新闻显示 COHR 扩大 6 英寸 InP 产能，用于 AI datacom 和光子平台。",
+      "COHR 的假设更偏垂直整合制造平台，而不是单一上游光源弹性。"
+    ],
+    "mapped_kpis": [
+      "InP 产能利用率",
+      "1.6T transceiver 出货节奏",
+      "毛利率变化",
+      "库存和预付款"
+    ],
+    "affected_companies": ["COHR", "LITE"],
+    "reasoning": "这些事实支持 COHR 的平台化制造假设，但还不能直接证明 AI 光互联已经进入长期大规模收入阶段。关键仍是 6 英寸 InP 利用率、1.6T 出货、AI datacom 收入和毛利率。",
+    "kpi_status_suggestion": "观察中",
+    "thesis_effect": "Strengthen",
+    "confidence": "Medium",
+    "next_watch": "继续观察 COHR 是否披露 6 英寸 InP 产能利用率、AI datacom 收入、1.6T 出货和非 AI 板块拖累。"
+  },
+  {
+    "id": "evidence-20260620-nvda-001",
+    "date": "2026-06-20",
+    "source_type": "Industry Architecture",
+    "company": "NVDA",
+    "source": "公开产业架构信息",
+    "title": "Nvidia Rubin / NVL72 与 rack-scale optical interconnect 观察",
+    "url": "",
+    "facts": [
+      "GPU rack-scale 系统扩大后，机柜内和多 GPU 计算域的数据移动压力上升。",
+      "公开样例新闻显示 Rubin / NVL72 架构继续让 rack-scale optical interconnect、CPO 或近封装光学成为产业关注点。",
+      "Scale-up 光互联是否放量，取决于 Nvidia、Google、Broadcom 等架构路线是否明确转向更多光互联。"
+    ],
+    "mapped_kpis": [
+      "Nvidia / Google / Broadcom 架构路线",
+      "CW laser 订单",
+      "InP 产能利用率",
+      "毛利率变化"
+    ],
+    "affected_companies": ["NVDA", "LITE", "COHR", "AVGO"],
+    "reasoning": "这些事实增强 Scale-up 光互联方向，但仍不是收入验证。它更像提高 LITE / COHR 上游光源和光子平台的期权价值。",
+    "kpi_status_suggestion": "观察中",
+    "thesis_effect": "Strengthen",
+    "confidence": "Medium",
+    "next_watch": "继续观察 Nvidia / Google / Broadcom 是否在 rack-scale 架构中明确采用 CPO、NPO、OCS 或硅光，以及供应商是否出现订单和毛利率兑现。"
+  },
+  {
+    "id": "evidence-20260620-risk-001",
+    "date": "2026-06-20",
+    "source_type": "Supply Chain / Risk",
+    "company": "Industry",
+    "source": "公开供应链风险观察",
+    "title": "大客户推迟 CPO / NPO 导入的证伪信号",
+    "url": "",
+    "facts": [
+      "如果大客户继续使用铜缆、AEC 或传统可插拔方案，CPO/NPO 兑现会延后。",
+      "公开样例新闻包含大客户推迟 CPO/NPO 导入的风险场景。",
+      "CPO 理论上降低功耗，但良率、维护和现场替换成本仍可能影响导入节奏。"
+    ],
+    "mapped_kpis": [
+      "Nvidia / Google / Broadcom 架构路线",
+      "CW laser 订单",
+      "库存和预付款",
+      "毛利率变化"
+    ],
+    "affected_companies": ["LITE", "COHR", "NVDA", "GOOG", "AVGO"],
+    "reasoning": "这类事实会削弱 Scale-up 光互联短期放量假设。若铜缆 / AEC 继续满足距离、功耗和成本要求，LITE 的光源订单和 COHR 的 CPO enabling 兑现都可能延后。",
+    "kpi_status_suggestion": "风险信号",
+    "thesis_effect": "Weaken",
+    "confidence": "Medium",
+    "next_watch": "继续观察是否出现 CPO/NPO 试点推迟、CW laser 订单延后、库存上升、客户预付款下降或毛利率压力。"
+  }
+]

@@ -3,6 +3,7 @@ const state = {
   news: [],
   weekly: [],
   thesisLog: [],
+  evidence: [],
   kpiStatus: {},
   filters: {
     search: "",
@@ -34,17 +35,19 @@ async function init() {
   setupFilterOptions();
   state.kpiStatus = loadKpiStatus();
 
-  const [memo, news, weekly, thesisLog] = await Promise.all([
+  const [memo, news, weekly, thesisLog, evidence] = await Promise.all([
     loadJson("data/memo.json", fallbackMemo()),
     loadJson("data/news.json", []),
     loadJson("data/weekly-updates.json", []),
-    loadJson("data/thesis-log.json", [])
+    loadJson("data/thesis-log.json", []),
+    loadJson("data/kpi-evidence.json", [])
   ]);
 
   state.memo = memo;
   state.news = Array.isArray(news) ? news : [];
   state.weekly = Array.isArray(weekly) ? weekly : [];
   state.thesisLog = Array.isArray(thesisLog) ? thesisLog : [];
+  state.evidence = Array.isArray(evidence) ? evidence : [];
 
   renderAll();
 }
@@ -84,6 +87,7 @@ function renderAll() {
   renderCompanyCompare();
   renderKpis();
   renderKpiConclusion();
+  renderEvidence();
   renderWeekly();
   renderNews();
   renderThesisLog();
@@ -297,6 +301,108 @@ function buildNextActions() {
     actions.add("继续观察 Nvidia / Google / Broadcom 是否更明确采用 CPO、NPO、OCS 或硅光路线。");
   }
   return [...actions].slice(0, 5);
+}
+
+function renderEvidence() {
+  renderEvidenceReadout();
+  renderEvidenceList();
+}
+
+function renderEvidenceReadout() {
+  const container = byId("evidenceReadout");
+  const total = state.evidence.length;
+  const strengthen = state.evidence.filter((item) => item.thesis_effect === "Strengthen").length;
+  const weaken = state.evidence.filter((item) => item.thesis_effect === "Weaken").length;
+  const watch = state.evidence.filter((item) => item.thesis_effect === "Watch").length;
+  const riskSuggestions = state.evidence.filter((item) => item.kpi_status_suggestion === "风险信号").length;
+  const kpiCounts = countEvidenceKpis();
+
+  let headline = "当前非卖方数据结论：Scale-out 主线更确定，Scale-up 光互联偏正面但仍处于订单和 KPI 验证阶段。";
+  let tone = "watch";
+  if (weaken > strengthen || riskSuggestions >= 2) {
+    headline = "当前非卖方数据结论：需要下调短期兑现预期，优先复核 CPO/NPO 导入延后、库存和毛利率风险。";
+    tone = "risk";
+  } else if (strengthen >= 3 && weaken === 0) {
+    headline = "当前非卖方数据结论：产业方向阶段性增强，但还不能跳过订单、收入占比、产能利用率和毛利率验证。";
+    tone = "good";
+  }
+
+  container.innerHTML = `
+    <article class="conclusion-card ${tone}">
+      <div>
+        <p class="eyebrow">System Readout</p>
+        <h3>${escapeHtml(headline)}</h3>
+        <p class="muted">基于 data/kpi-evidence.json 的公开数据证据库自动汇总，不使用卖方评级、目标价或买卖建议。</p>
+      </div>
+      <div class="conclusion-stats">
+        <span class="pill">证据 ${total}</span>
+        <span class="pill good">Strengthen ${strengthen}</span>
+        <span class="pill risk">Weaken ${weaken}</span>
+        <span class="pill watch">Watch ${watch}</span>
+        <span class="pill risk">风险建议 ${riskSuggestions}</span>
+      </div>
+      <div class="next-actions">
+        <h4>KPI 证据覆盖</h4>
+        <div class="tag-row">
+          ${Object.entries(kpiCounts).map(([kpi, count]) => `<span class="pill watch">${escapeHtml(kpi)} · ${count}</span>`).join("")}
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderEvidenceList() {
+  const container = byId("evidenceList");
+  if (!state.evidence.length) {
+    container.innerHTML = `<article class="card"><p class="muted">暂无证据数据。请在 data/kpi-evidence.json 中添加财报、电话会或新闻证据。</p></article>`;
+    return;
+  }
+
+  container.innerHTML = state.evidence.map((item) => `
+    <article class="evidence-card">
+      <div class="news-top">
+        <div>
+          <div class="tag-row">
+            <span class="pill">${escapeHtml(item.date)}</span>
+            <span class="pill">${escapeHtml(item.source_type)}</span>
+            <span class="pill">${escapeHtml(item.company)}</span>
+            <span class="pill ${thesisClass(item.thesis_effect)}">${escapeHtml(item.thesis_effect)}</span>
+            <span class="pill ${confidenceClass(item.confidence)}">Confidence ${escapeHtml(item.confidence)}</span>
+            <span class="pill watch">建议：${escapeHtml(item.kpi_status_suggestion)}</span>
+          </div>
+          <h3>${escapeHtml(item.title)}</h3>
+          <p class="muted">${escapeHtml(item.source)}</p>
+        </div>
+        ${item.url ? `<a class="btn tiny" href="${escapeAttr(item.url)}" target="_blank" rel="noopener">打开来源</a>` : ""}
+      </div>
+      <div class="evidence-flow">
+        ${evidenceStep("提取事实", item.facts)}
+        ${evidenceStep("映射 KPI", item.mapped_kpis, "watch")}
+        ${evidenceStep("影响公司", item.affected_companies)}
+        ${evidenceStep("推理", [item.reasoning])}
+        ${evidenceStep("下一步观察", [item.next_watch], "good")}
+      </div>
+    </article>
+  `).join("");
+}
+
+function evidenceStep(title, values = [], tone = "") {
+  return `
+    <section class="evidence-step">
+      <h4>${escapeHtml(title)}</h4>
+      <div>${(values || []).map((value) => `<span class="pill ${tone}">${escapeHtml(value)}</span>`).join("")}</div>
+    </section>
+  `;
+}
+
+function countEvidenceKpis() {
+  const counts = {};
+  state.evidence.forEach((item) => {
+    (item.mapped_kpis || []).forEach((kpi) => {
+      counts[kpi] = (counts[kpi] || 0) + 1;
+    });
+  });
+  return counts;
 }
 
 function renderWeekly() {
