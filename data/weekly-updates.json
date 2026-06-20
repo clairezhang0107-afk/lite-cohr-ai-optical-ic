@@ -1,0 +1,26 @@
+[
+  {
+    "week_start": "2026-06-15",
+    "week_end": "2026-06-20",
+    "summary": "本周重点关注 1.6T、CPO/NPO、InP 光芯片与 CW laser 产能变化。",
+    "key_takeaways": [
+      "Scale-out 仍是当前确定性主线，重点看 800G 到 1.6T 的切换。",
+      "Scale-up 光互联仍是更大期权，重点看 Nvidia、Google、Broadcom 架构路线。",
+      "LITE 更偏 CW laser / InP 弹性，COHR 更偏垂直整合制造平台。"
+    ],
+    "bullish_signals": [
+      "AI 数据中心继续推动高速光模块升级。",
+      "CPO/NPO 对高功率 CW 光源的需求可能扩大。"
+    ],
+    "bearish_signals": [
+      "Scale-up 光互联放量节奏仍需订单验证。",
+      "如果铜缆 / AEC 继续满足需求，光入柜节奏可能延后。"
+    ],
+    "watch_next_week": [
+      "LITE 是否披露更多 Cloud / AI revenue 占比。",
+      "COHR 是否披露 6 英寸 InP 产能利用率。",
+      "Nvidia / Google / Broadcom 是否有新的 CPO、NPO、OCS 架构更新。"
+    ],
+    "thesis_change": "不改变主假设：Scale-out 是确定性主线，Scale-up 是更大期权。"
+  }
+]

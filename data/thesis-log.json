@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-06-20",
+    "thesis": "Scale-up 光互联是纯增量市场",
+    "previous_view": "方向成立，但放量节奏需要验证。",
+    "current_view": "观点不变，继续等待 Nvidia / Google / Broadcom 架构和订单验证。",
+    "reason": "目前产业方向清晰，但尚未看到足够大规模订单数据确认 3-4 倍 Scale-out 的 TAM 假设。",
+    "confidence": "Medium",
+    "affected_companies": ["LITE", "COHR", "NVDA", "GOOG", "AVGO"],
+    "affected_kpis": ["CW laser 订单", "InP 产能利用率", "Nvidia / Google / Broadcom 架构路线"]
+  }
+]

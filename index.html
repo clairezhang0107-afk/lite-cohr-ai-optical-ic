@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LITE / COHR AI 光互联 IC 备忘录</title>
+    <meta name="description" content="LITE / COHR AI 光互联 IC 备忘录与每周新闻判断系统">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top">LITE / COHR IC</a>
+      <button id="navToggle" class="nav-toggle" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+      <nav id="siteNav" class="site-nav" aria-label="主导航">
+        <a href="#thesis">IC 结论</a>
+        <a href="#architecture">架构图</a>
+        <a href="#compare">公司对比</a>
+        <a href="#kpi">KPI</a>
+        <a href="#weekly">每周 Update</a>
+        <a href="#news">新闻流</a>
+        <a href="#log">Thesis Log</a>
+        <a href="#risk">风险</a>
+        <a href="#glossary">术语</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI 光互联 · 投资研究判断系统</p>
+          <h1 id="heroTitle">LITE / COHR AI 光互联 IC 备忘录</h1>
+          <p id="heroSubtitle" class="subtitle">Scale-out 是确定性主线，Scale-up 是更大的期权</p>
+          <div class="hero-meta">
+            <span>Last updated: <strong id="lastUpdated">2026-06-20</strong></span>
+            <span id="heroDisclaimer">仅作研究备忘录，不构成投资建议。所有新闻自动分类和投资影响链均需人工复核。</span>
+          </div>
+          <div class="action-row">
+            <button id="copyThesisBtn" class="btn primary" type="button">复制 IC 结论摘要</button>
+            <a class="btn ghost" href="#news">查看新闻影响链</a>
+          </div>
+        </div>
+        <div class="logic-stack" aria-label="核心研究逻辑">
+          <span>新闻</span>
+          <span>对应产业环节</span>
+          <span>影响公司</span>
+          <span>影响 KPI</span>
+          <span>是否改变投资假设</span>
+          <span>下一步观察动作</span>
+        </div>
+      </section>
+
+      <div id="errorBox" class="error-box" hidden></div>
+
+      <section id="thesis" class="section">
+        <div class="section-head">
+          <p class="eyebrow">IC Core</p>
+          <h2>IC 核心结论</h2>
+        </div>
+        <div id="coreThesis" class="card-grid four"></div>
+      </section>
+
+      <section id="architecture" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Architecture</p>
+          <h2>AI 光互联架构图</h2>
+        </div>
+        <div id="architectureMap" class="architecture-map"></div>
+      </section>
+
+      <section id="compare" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Company Lens</p>
+          <h2>LITE vs COHR 对比</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>公司</th>
+                <th>投资标签</th>
+                <th>AI 敞口</th>
+                <th>核心产品</th>
+                <th>关键催化</th>
+                <th>主要风险</th>
+                <th>更适合验证的投资假设</th>
+              </tr>
+            </thead>
+            <tbody id="companyCompare"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="kpi" class="section">
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">Verification</p>
+            <h2>KPI Checklist</h2>
+          </div>
+          <button id="exportKpiBtn" class="btn" type="button">导出 KPI 状态 JSON</button>
+        </div>
+        <div id="kpiList" class="kpi-list"></div>
+      </section>
+
+      <section id="weekly" class="section">
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">Weekly Review</p>
+            <h2>每周光互联 Update</h2>
+          </div>
+          <div class="action-row">
+            <button id="copyWeeklyBtn" class="btn" type="button">一键复制本周周报</button>
+            <button id="exportWeeklyBtn" class="btn" type="button">导出 weekly-updates.json</button>
+          </div>
+        </div>
+        <div id="weeklyUpdate" class="weekly-card"></div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">News Impact Chain</p>
+            <h2>Optical News Feed 新闻影响链</h2>
+          </div>
+          <button id="exportNewsBtn" class="btn" type="button">导出 news.json</button>
+        </div>
+        <div class="filters" aria-label="新闻筛选器">
+          <label class="search-label">
+            <span>搜索</span>
+            <input id="newsSearch" type="search" placeholder="搜索标题、摘要、公司、标签、impact_chain">
+          </label>
+          <div class="filter-grid">
+            <label>公司<select id="companyFilter" multiple></select></label>
+            <label>架构层<select id="layerFilter" multiple></select></label>
+            <label>标签<select id="tagFilter" multiple></select></label>
+            <label>影响<select id="impactFilter" multiple></select></label>
+            <label>重要性<select id="importanceFilter" multiple></select></label>
+            <label>Thesis Effect<select id="thesisFilter" multiple></select></label>
+          </div>
+          <div class="quick-row">
+            <button class="btn tiny" data-quick="high" type="button">只看 High importance</button>
+            <button class="btn tiny" data-quick="weaken" type="button">只看 Weaken</button>
+            <button class="btn tiny" data-quick="strengthen" type="button">只看 Strengthen</button>
+            <button class="btn tiny" data-quick="changed" type="button">只看会改变 thesis 的新闻</button>
+            <button class="btn tiny ghost" data-quick="clear" type="button">清除筛选</button>
+          </div>
+        </div>
+        <div id="newsCount" class="muted small"></div>
+        <div id="newsFeed" class="news-feed"></div>
+      </section>
+
+      <section id="log" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Thesis Change</p>
+          <h2>Thesis Change Log 投资假设变化记录</h2>
+        </div>
+        <div id="thesisLog" class="timeline"></div>
+      </section>
+
+      <section id="risk" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Falsification</p>
+          <h2>风险与证伪</h2>
+        </div>
+        <div id="riskList" class="card-grid"></div>
+      </section>
+
+      <section id="glossary" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Glossary</p>
+          <h2>术语解释</h2>
+        </div>
+        <div id="glossaryList" class="accordion"></div>
+      </section>
+
+      <section class="section disclaimer">
+        <h2>免责声明</h2>
+        <p>本网站仅作研究备忘录，不构成任何买入、卖出或持有建议，不输出目标价。所有判断均以“假设、验证、风险、待观察”表达。新闻自动分类和投资影响链仅作研究辅助，必须人工复核。</p>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
