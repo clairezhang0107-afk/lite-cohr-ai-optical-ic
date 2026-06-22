@@ -1,12 +1,209 @@
 [
   {
+    "id": "news-20260622-at-isc-jupiter-shows-what-exascale-science-looks",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+    "url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputing-science/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：At ISC, JUPITER Shows What Exascale Science Looks Like",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-nairr-science-program-reshapes-scientific-resear",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/nairr-scientific-research-ai-infrastructure/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Medium",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Watch",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Watch",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-from-materials-simulation-to-experimental-astron",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-nvidia-vera-cpu-opens-the-way-for-agentic-scient",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+    "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-eco-wave-power-turns-waves-into-watts-with-nvidi",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+    "url": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Medium",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-hotter-than-a-hot-tub-the-45-c-breakthrough-to-c",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+    "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20260620-001",
     "date": "2026-06-20",
     "source": "Company IR",
     "title": "Lumentum expands advanced laser capacity for AI data centers",
     "url": "",
-    "companies": ["LITE", "COHR", "NVDA"],
-    "tags": ["InP", "CW laser", "UHP laser", "CPO", "NPO", "Scale-up"],
+    "companies": [
+      "LITE",
+      "COHR",
+      "NVDA"
+    ],
+    "tags": [
+      "InP",
+      "CW laser",
+      "UHP laser",
+      "CPO",
+      "NPO",
+      "Scale-up"
+    ],
     "architecture_layer": "Supply Chain",
     "importance": "High",
     "summary_cn": "Lumentum 扩大用于 AI 数据中心的 InP / CW laser / UHP laser 产能。",
@@ -17,8 +214,17 @@
     "impact_chain": {
       "news_event": "Lumentum 扩大用于 AI 数据中心的 InP / CW laser 产能。",
       "industry_link": "InP 光芯片 / CW laser / Scale-up 光互联",
-      "affected_companies": ["LITE", "COHR", "NVDA"],
-      "affected_kpis": ["CW laser 订单", "InP 产能利用率", "毛利率变化", "Nvidia / Google / Broadcom 架构路线"],
+      "affected_companies": [
+        "LITE",
+        "COHR",
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "CW laser 订单",
+        "InP 产能利用率",
+        "毛利率变化",
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
       "thesis_effect": "Strengthen",
       "thesis_reason": "这条新闻增强了 Scale-up 光互联放量后上游光源可能紧缺的判断。LITE 对 CW laser 和 InP 的敞口更直接，COHR 受益于 InP 制造和光子平台能力。但还需要订单、产能利用率和毛利率继续验证。",
       "next_watch_item": "继续观察 LITE 是否披露 CW laser 订单、Cloud / AI revenue 占比、InP 产能利用率和毛利率变化。"
@@ -30,8 +236,18 @@
     "source": "Company IR",
     "title": "Coherent expands 6-inch InP capacity for AI datacom and photonics platform",
     "url": "",
-    "companies": ["COHR", "LITE"],
-    "tags": ["InP", "EML", "1.6T", "CPO", "Scale-out", "Scale-up"],
+    "companies": [
+      "COHR",
+      "LITE"
+    ],
+    "tags": [
+      "InP",
+      "EML",
+      "1.6T",
+      "CPO",
+      "Scale-out",
+      "Scale-up"
+    ],
     "architecture_layer": "Supply Chain",
     "importance": "High",
     "summary_cn": "Coherent 扩大 6 英寸 InP 产能，用于 AI datacom、EML、光模块和更广泛光子平台。",
@@ -42,8 +258,16 @@
     "impact_chain": {
       "news_event": "Coherent 扩大 6 英寸 InP 产能。",
       "industry_link": "InP 制造 / 光子平台 / Scale-out + Scale-up",
-      "affected_companies": ["COHR", "LITE"],
-      "affected_kpis": ["InP 产能利用率", "1.6T transceiver 出货节奏", "毛利率变化", "库存和预付款"],
+      "affected_companies": [
+        "COHR",
+        "LITE"
+      ],
+      "affected_kpis": [
+        "InP 产能利用率",
+        "1.6T transceiver 出货节奏",
+        "毛利率变化",
+        "库存和预付款"
+      ],
       "thesis_effect": "Strengthen",
       "thesis_reason": "这条新闻增强了 AI 光互联进入大规模制造平台化阶段的假设。COHR 受益于垂直整合和 6 英寸 InP 产能，但仍需验证利用率、良率、客户订单和毛利率。",
       "next_watch_item": "继续观察 COHR 是否披露 6 英寸 InP 产能利用率、AI datacom 收入、1.6T 出货和毛利率改善。"
@@ -55,8 +279,21 @@
     "source": "Industry Conference",
     "title": "Nvidia Rubin / NVL72 architecture keeps rack-scale optical interconnect and CPO in focus",
     "url": "",
-    "companies": ["NVDA", "LITE", "COHR", "AVGO"],
-    "tags": ["CPO", "NPO", "XPO", "NVL72", "Rubin", "CW laser", "Scale-up"],
+    "companies": [
+      "NVDA",
+      "LITE",
+      "COHR",
+      "AVGO"
+    ],
+    "tags": [
+      "CPO",
+      "NPO",
+      "XPO",
+      "NVL72",
+      "Rubin",
+      "CW laser",
+      "Scale-up"
+    ],
     "architecture_layer": "Scale-up",
     "importance": "High",
     "summary_cn": "Nvidia Rubin / NVL72 架构继续让 rack-scale optical interconnect、CPO 或近封装光学成为产业关注点。",
@@ -67,8 +304,18 @@
     "impact_chain": {
       "news_event": "Nvidia Rubin / NVL72 架构继续强调 CPO 或 rack-scale optical interconnect。",
       "industry_link": "Scale-up 光互联 / CPO / NPO",
-      "affected_companies": ["NVDA", "LITE", "COHR", "AVGO"],
-      "affected_kpis": ["Nvidia / Google / Broadcom 架构路线", "CW laser 订单", "InP 产能利用率", "毛利率变化"],
+      "affected_companies": [
+        "NVDA",
+        "LITE",
+        "COHR",
+        "AVGO"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线",
+        "CW laser 订单",
+        "InP 产能利用率",
+        "毛利率变化"
+      ],
       "thesis_effect": "Strengthen",
       "thesis_reason": "这条新闻增强了 Scale-up 光互联从概念走向架构选择的可能性。但真正改变投资假设仍需要看到供应商订单、客户导入节奏和利润兑现。",
       "next_watch_item": "继续观察 Nvidia 架构细节、Broadcom 交换芯片路线、LITE / COHR 的 CW laser 与 InP 订单。"
@@ -80,8 +327,20 @@
     "source": "Supply Chain Check",
     "title": "Major cloud customer delays CPO / NPO adoption and keeps copper or AEC longer",
     "url": "",
-    "companies": ["LITE", "COHR", "NVDA", "GOOG", "AVGO"],
-    "tags": ["CPO", "NPO", "AEC", "Scale-up", "Risk"],
+    "companies": [
+      "LITE",
+      "COHR",
+      "NVDA",
+      "GOOG",
+      "AVGO"
+    ],
+    "tags": [
+      "CPO",
+      "NPO",
+      "AEC",
+      "Scale-up",
+      "Risk"
+    ],
     "architecture_layer": "Risk",
     "importance": "High",
     "summary_cn": "大客户推迟 CPO / NPO 导入，并继续使用铜缆或 AEC 方案更长时间。",
@@ -92,11 +351,398 @@
     "impact_chain": {
       "news_event": "大客户推迟 CPO / NPO 导入。",
       "industry_link": "Scale-up 光互联风险",
-      "affected_companies": ["LITE", "COHR", "NVDA", "GOOG", "AVGO"],
-      "affected_kpis": ["Nvidia / Google / Broadcom 架构路线", "CW laser 订单", "库存和预付款", "毛利率变化"],
+      "affected_companies": [
+        "LITE",
+        "COHR",
+        "NVDA",
+        "GOOG",
+        "AVGO"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线",
+        "CW laser 订单",
+        "库存和预付款",
+        "毛利率变化"
+      ],
       "thesis_effect": "Weaken",
       "thesis_reason": "这条新闻削弱了 Scale-up 光互联短期放量假设。若铜缆 / AEC 继续满足距离、功耗和成本要求，CPO/NPO 的订单和收入兑现会延后。",
       "next_watch_item": "继续观察客户是否恢复 CPO/NPO 试点、CW laser 订单是否推迟、LITE / COHR 是否出现库存或毛利率压力。"
+    }
+  },
+  {
+    "id": "news-20260618-how-ferc-s-large-load-interconnection-actions-he",
+    "date": "2026-06-18",
+    "source": "NVIDIA Blog",
+    "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+    "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260618-at-cannes-lions-nvidia-partners-reshape-advertis",
+    "date": "2026-06-18",
+    "source": "NVIDIA Blog",
+    "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+    "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260618-sync-and-stream-geforce-now-connects-to-members-",
+    "date": "2026-06-18",
+    "source": "NVIDIA Blog",
+    "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260618-france-advances-europe-s-ai-future-with-nvidia-t",
+    "date": "2026-06-18",
+    "source": "NVIDIA Blog",
+    "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
+    "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：France Advances Europe’s AI Future With NVIDIA Technologies",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "France Advances Europe’s AI Future With NVIDIA Technologies",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260616-hands-free-ais-forward-nvidia-xr-ai-brings-agent",
+    "date": "2026-06-16",
+    "source": "NVIDIA Blog",
+    "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+    "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260616-coherent-breaks-ground-on-expanded-texas-facilit",
+    "date": "2026-06-16",
+    "source": "NVIDIA Blog",
+    "title": "Coherent Breaks Ground on Expanded Texas Facility, Scaling AI’s Optical Backbone",
+    "url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
+    "companies": [
+      "COHR"
+    ],
+    "tags": [
+      "InP"
+    ],
+    "architecture_layer": "Supply Chain",
+    "importance": "Low",
+    "summary_cn": "COHR 相关新闻涉及 InP：Coherent Breaks Ground on Expanded Texas Facility, Scaling AI’s Optical Backbone",
+    "why_it_matters": "这可能影响上游光源和 InP 供需格局，需要验证产能利用率、订单和利润弹性。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Coherent Breaks Ground on Expanded Texas Facility, Scaling AI’s Optical Backbone",
+      "industry_link": "InP 光芯片 / 供应链",
+      "affected_companies": [
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线",
+        "InP 产能利用率",
+        "库存和预付款",
+        "毛利率变化"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "这条新闻与 InP 供应链有关。InP 是高速光芯片和激光器的重要材料，如果供需紧张，可能影响 LITE / COHR 的收入和毛利率。",
+      "next_watch_item": "继续观察 InP 扩产、产能利用率、客户预付款和交付周期。"
+    }
+  },
+  {
+    "id": "news-20260616-hpe-ai-factory-with-nvidia-expands-for-the-era-o",
+    "date": "2026-06-16",
+    "source": "NVIDIA Blog",
+    "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+    "url": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：HPE AI Factory With NVIDIA Expands for the Era of Agents",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260616-fastest-largest-strongest-nvidia-blackwell-sweep",
+    "date": "2026-06-16",
+    "source": "NVIDIA Blog",
+    "title": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+    "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Fastest, Largest, Strongest: NVIDIA Blackwell Sweeps MLPerf Training 6.0",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260612-nvidia-blackwell-leads-on-first-agentic-ai-infra",
+    "date": "2026-06-12",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+    "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Medium",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260611-save-big-and-play-bigger-geforce-now-summer-sale",
+    "date": "2026-06-11",
+    "source": "NVIDIA Blog",
+    "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260610-for-robotaxis-safety-must-be-built-in-not-bolted",
+    "date": "2026-06-10",
+    "source": "NVIDIA Blog",
+    "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+    "url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：For Robotaxis, Safety Must Be Built In, Not Bolted On",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260610-nvidia-accelerates-google-deepmind-s-diffusionge",
+    "date": "2026-06-10",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+    "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+    "companies": [
+      "NVDA",
+      "GOOG"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA / GOOG 相关新闻涉及 AI 光互联：NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA",
+        "GOOG"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
     }
   }
 ]
