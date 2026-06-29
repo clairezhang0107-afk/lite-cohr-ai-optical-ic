@@ -1,5 +1,190 @@
 [
   {
+    "id": "news-20260629-open-models-closed-environments-palantir-brings-",
+    "date": "2026-06-29",
+    "source": "NVIDIA Blog",
+    "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+    "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260625-the-ultimate-summer-sale-pairing-steam-sale-meet",
+    "date": "2026-06-25",
+    "source": "NVIDIA Blog",
+    "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260624-nvidia-and-aws-collaborate-to-bring-ai-to-produc",
+    "date": "2026-06-24",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+    "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260623-how-businesses-are-building-specialized-ai-they-",
+    "date": "2026-06-23",
+    "source": "NVIDIA Blog",
+    "title": "How Businesses Are Building Specialized AI They Can Trust",
+    "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：How Businesses Are Building Specialized AI They Can Trust",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "How Businesses Are Building Specialized AI They Can Trust",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260623-nvidia-powers-over-400-of-the-world-s-500-fastes",
+    "date": "2026-06-23",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+    "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260623-nvidia-brings-trusted-24-7-ai-agents-to-telecom-",
+    "date": "2026-06-23",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+    "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20260622-at-isc-jupiter-shows-what-exascale-science-looks",
     "date": "2026-06-22",
     "source": "NVIDIA Blog",
@@ -62,37 +247,6 @@
     }
   },
   {
-    "id": "news-20260622-from-materials-simulation-to-experimental-astron",
-    "date": "2026-06-22",
-    "source": "NVIDIA Blog",
-    "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
-    "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
-    "companies": [
-      "NVDA"
-    ],
-    "tags": [],
-    "architecture_layer": "Financial",
-    "importance": "Low",
-    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
-    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
-    "impact": "Neutral",
-    "thesis_effect": "No Change",
-    "status": "Watch",
-    "impact_chain": {
-      "news_event": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
-      "industry_link": "待人工判断",
-      "affected_companies": [
-        "NVDA"
-      ],
-      "affected_kpis": [
-        "Nvidia / Google / Broadcom 架构路线"
-      ],
-      "thesis_effect": "No Change",
-      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
-      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
-    }
-  },
-  {
     "id": "news-20260622-nvidia-vera-cpu-opens-the-way-for-agentic-scient",
     "date": "2026-06-22",
     "source": "NVIDIA Blog",
@@ -119,6 +273,37 @@
         "Nvidia / Google / Broadcom 架构路线"
       ],
       "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260622-from-materials-simulation-to-experimental-astron",
+    "date": "2026-06-22",
+    "source": "NVIDIA Blog",
+    "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
       "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
       "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
     }
