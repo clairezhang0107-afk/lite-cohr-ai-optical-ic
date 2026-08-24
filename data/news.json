@@ -1,5 +1,65 @@
 [
   {
+    "id": "news-20260820-bring-the-fire-play-games-on-geforce-now-with-ne",
+    "date": "2026-08-20",
+    "source": "NVIDIA Blog",
+    "title": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260817-securing-the-infrastructure-of-intelligence",
+    "date": "2026-08-17",
+    "source": "NVIDIA Blog",
+    "title": "Securing the Infrastructure of Intelligence",
+    "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Securing the Infrastructure of Intelligence",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Securing the Infrastructure of Intelligence",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20260814-universitas-gadjah-mada-indosat-and-nvidia-open-",
     "date": "2026-08-14",
     "source": "NVIDIA Blog",
