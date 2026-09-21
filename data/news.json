@@ -1,5 +1,285 @@
 [
   {
+    "id": "news-20260917-cute-critters-come-to-the-cloud-aniimo-launches-",
+    "date": "2026-09-17",
+    "source": "NVIDIA Blog",
+    "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260916-nvidia-vera-rubin-nvl72-delivers-leading-perform",
+    "date": "2026-09-16",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+    "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "High",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Important",
+    "impact_chain": {
+      "news_event": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260916-emerald-ai-google-and-nvidia-launch-alliance-to-",
+    "date": "2026-09-16",
+    "source": "NVIDIA Blog",
+    "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+    "url": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+    "companies": [
+      "NVDA",
+      "GOOG"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA / GOOG 相关新闻涉及 AI 光互联：Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA",
+        "GOOG"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260916-university-of-manchester-uses-nvidia-earth-2-to-",
+    "date": "2026-09-16",
+    "source": "NVIDIA Blog",
+    "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+    "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260915-now-we-can-know-everything-and-do-anything-jense",
+    "date": "2026-09-15",
+    "source": "NVIDIA Blog",
+    "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+    "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260915-from-megawatts-to-tokens-how-nvidia-maximizes-ai",
+    "date": "2026-09-15",
+    "source": "NVIDIA Blog",
+    "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+    "url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260915-ai-infra-summit-nvidia-vera-rubin-and-dsx-platfo",
+    "date": "2026-09-15",
+    "source": "NVIDIA Blog",
+    "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "High",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Important",
+    "impact_chain": {
+      "news_event": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260915-heart-of-the-matter-how-a-major-children-s-hospi",
+    "date": "2026-09-15",
+    "source": "NVIDIA Blog",
+    "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+    "url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260914-perplexity-portable-computer-is-now-available-on",
+    "date": "2026-09-14",
+    "source": "NVIDIA Blog",
+    "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+    "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20260910-skild-ai-taps-nvidia-physical-ai-to-teach-robots",
     "date": "2026-09-10",
     "source": "NVIDIA Blog",
