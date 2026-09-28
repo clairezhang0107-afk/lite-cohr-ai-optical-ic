@@ -1,5 +1,314 @@
 [
   {
+    "id": "news-20260924-how-open-science-can-help-researchers-prepare-fo",
+    "date": "2026-09-24",
+    "source": "NVIDIA Blog",
+    "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+    "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+    "companies": [
+      "NVDA",
+      "GOOG"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA / GOOG 相关新闻涉及 AI 光互联：How Open Science Can Help Researchers Prepare for the Next Pandemic",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA",
+        "GOOG"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260924-contain-the-chaos-control-resonant-launches-on-g",
+    "date": "2026-09-24",
+    "source": "NVIDIA Blog",
+    "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260923-sakeena-fiza-helps-nvidia-hardware-succeed-at-sc",
+    "date": "2026-09-23",
+    "source": "NVIDIA Blog",
+    "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+    "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260923-at-ai-day-singapore-nvidia-and-partners-showcase",
+    "date": "2026-09-23",
+    "source": "NVIDIA Blog",
+    "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+    "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260922-nvidia-isaac-ros-5-0-advances-agentic-open-sourc",
+    "date": "2026-09-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+    "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260921-nvidia-launches-dsx-ready-to-qualify-power-and-c",
+    "date": "2026-09-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260921-why-deploying-physical-ai-at-scale-demands-safet",
+    "date": "2026-09-21",
+    "source": "NVIDIA Blog",
+    "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+    "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260921-from-enablement-to-execution-egypt-s-ai-ecosyste",
+    "date": "2026-09-21",
+    "source": "NVIDIA Blog",
+    "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+    "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260921-ai-security-is-an-engineering-problem-how-to-sol",
+    "date": "2026-09-21",
+    "source": "NVIDIA Blog",
+    "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+    "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20260921-5-companies-using-nvidia-ai-for-clean-energy",
+    "date": "2026-09-21",
+    "source": "NVIDIA Blog",
+    "title": "5 Companies Using NVIDIA AI for Clean Energy",
+    "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：5 Companies Using NVIDIA AI for Clean Energy",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "5 Companies Using NVIDIA AI for Clean Energy",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20260917-cute-critters-come-to-the-cloud-aniimo-launches-",
     "date": "2026-09-17",
     "source": "NVIDIA Blog",
