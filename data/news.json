@@ -1,7 +1,348 @@
 [
   {
-    "id": "news-20261008-into-the-omniverse-how-developers-turn-ideas-int",
-    "date": "2026-10-08",
+    "id": "news-20261017-rtx-spark-ignites-global-celebration-as-new-wind",
+    "date": "2026-10-17",
+    "source": "NVIDIA Blog",
+    "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261015-be-there-for-the-beginning-celebrate-the-launch-",
+    "date": "2026-10-15",
+    "source": "NVIDIA Blog",
+    "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261015-open-from-data-center-to-desktop-nvidia-expands-",
+    "date": "2026-10-15",
+    "source": "NVIDIA Blog",
+    "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Medium",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261015-dial-up-the-cloud-nvidia-dlss-4-5-controls-arriv",
+    "date": "2026-10-15",
+    "source": "NVIDIA Blog",
+    "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261015-nvidia-expands-advanced-technology-access-for-eu",
+    "date": "2026-10-15",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+    "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261015-the-nordics-and-nvidia-show-what-s-possible-when",
+    "date": "2026-10-15",
+    "source": "NVIDIA Blog",
+    "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+    "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261014-nvidia-announces-new-investments-in-the-uk-start",
+    "date": "2026-10-14",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+    "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Announces New Investments in the UK Startup Ecosystem",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261014-european-cities-deploy-nvidia-powered-ai-agents-",
+    "date": "2026-10-14",
+    "source": "NVIDIA Blog",
+    "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+    "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261013-all-systems-go-global-pc-app-ecosystem-ready-for",
+    "date": "2026-10-13",
+    "source": "NVIDIA Blog",
+    "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261013-nvidia-announces-new-investments-in-france-s-sta",
+    "date": "2026-10-13",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Announces New Investments in France’s Startups",
+    "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Announces New Investments in France’s Startups",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Announces New Investments in France’s Startups",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261012-ocp-global-summit-amid-ecosystem-adoption-nvidia",
+    "date": "2026-10-12",
+    "source": "NVIDIA Blog",
+    "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "High",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Important",
+    "impact_chain": {
+      "news_event": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261009-into-the-omniverse-how-developers-turn-ideas-int",
+    "date": "2026-10-09",
     "source": "NVIDIA Blog",
     "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
     "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
