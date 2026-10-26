@@ -1,5 +1,564 @@
 [
   {
+    "id": "news-20261023-kazakhstan-expands-compute-for-its-ai-future",
+    "date": "2026-10-23",
+    "source": "NVIDIA Blog",
+    "title": "Kazakhstan Expands Compute for Its AI Future",
+    "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Kazakhstan Expands Compute for Its AI Future",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Kazakhstan Expands Compute for Its AI Future",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-nvidia-unveils-minerva-to-bring-end-to-end-obser",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-cloud-deployment-incoming-call-of-duty-modern-wa",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+    "companies": [],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "相关公司 相关新闻涉及 AI 光互联：Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "LITE",
+        "COHR"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-leading-european-financial-services-organization",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+    "url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-nvidia-cosmos-opens-new-tools-to-train-evaluate-",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+    "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-how-companies-are-using-nvidia-dsx-to-break-the-",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+    "url": "https://blogs.nvidia.com/blog/dsx-power/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-nvidia-transforms-european-retail-from-digital-d",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+    "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-pioneers-across-europe-deploy-nvidia-earth-2-ope",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+    "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261022-nvidia-open-models-power-a-new-wave-of-european-",
+    "date": "2026-10-22",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+    "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-bringing-the-spark-to-europe-local-intelligence-",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+    "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-google-cloud-and-nvidia-announce-general-availab",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+    "companies": [
+      "NVDA",
+      "GOOG"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "High",
+    "summary_cn": "NVDA / GOOG 相关新闻涉及 AI 光互联：Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "Strengthen",
+    "status": "Important",
+    "impact_chain": {
+      "news_event": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA",
+        "GOOG"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "Strengthen",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-nvidia-cloud-partners-scale-across-europe-sovere",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+    "url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Positive",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-europe-s-industrial-leaders-reinvent-engineering",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-nvidia-cudss-now-generally-available-to-accelera",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+    "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-nvidia-confidential-computing-expands-enabling-f",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+    "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-nvidia-agent-toolkit-expands-grounding-enterpris",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+    "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-nvidia-open-models-advance-europe-s-sovereign-in",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+    "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
+    "id": "news-20261021-gtc-berlin-2026-live-updates-from-nvidia-ceo-jen",
+    "date": "2026-10-21",
+    "source": "NVIDIA Blog",
+    "title": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+    "url": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+    "companies": [
+      "NVDA"
+    ],
+    "tags": [],
+    "architecture_layer": "Financial",
+    "importance": "Low",
+    "summary_cn": "NVDA 相关新闻涉及 AI 光互联：GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+    "why_it_matters": "这可能与 AI 光互联产业链有关，但仍需人工判断具体影响。",
+    "impact": "Neutral",
+    "thesis_effect": "No Change",
+    "status": "Watch",
+    "impact_chain": {
+      "news_event": "GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote",
+      "industry_link": "待人工判断",
+      "affected_companies": [
+        "NVDA"
+      ],
+      "affected_kpis": [
+        "Nvidia / Google / Broadcom 架构路线"
+      ],
+      "thesis_effect": "No Change",
+      "thesis_reason": "该新闻可能与 AI 光互联产业链有关，但需要人工判断其对投资假设的影响。",
+      "next_watch_item": "人工复核新闻来源、公司影响和相关 KPI。"
+    }
+  },
+  {
     "id": "news-20261017-rtx-spark-ignites-global-celebration-as-new-wind",
     "date": "2026-10-17",
     "source": "NVIDIA Blog",
